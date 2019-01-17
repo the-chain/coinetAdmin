@@ -1,0 +1,132 @@
+/* airdrop-conditions styles */
+
+    .text-container-hover-airdrop
+    {
+        top: 11%;
+        left: 8%;
+    }
+
+    .airdrop-conditions h4
+    {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+        text-align: left;
+        color: #4a4a4a;
+    }
+
+    .airdrop-conditions h5
+    {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+        text-align: center;
+        color: #69cdec;
+    }
+
+    .circle-num
+    {
+        border-radius: 33px;
+        border: solid 1px #e6e5e5;
+        text-align: center; 
+        background-color: #ffffff;	   
+        text-align: center;
+    }
+
+    .airdrop-conditions .modal-content
+    {
+        padding-top: 6%;
+        padding-bottom: 6%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .airdrop-conditions .modal-body 
+    {
+        margin-top: 2%;
+    }
+
+    .airdrop-conditions .modal-footer 
+    {
+        border:none;
+    }
+
+    .airdrop-conditions .modal-header 
+    {
+        border: none;
+    }
+
+    .airdrop-conditions .modal-content
+    {
+        padding-top: 6%;
+        padding-bottom: 6%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .airdrop-conditions .modal-body 
+    {
+        margin-top: 2%;
+    }
+
+    .airdrop-conditions .modal-footer 
+    {
+        border:none;
+
+    }
+
+    .airdrop-conditions .modal-header 
+    {
+        border: none;
+    }
+
+    .conditions-text
+    {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 2;
+        letter-spacing: -0.3px;
+        text-align: justify;
+        color: #9b9b9b;
+    }
+
+    .conditions-text-bold 
+    {
+        font-weight: bold;
+    }
+
+    .icon-div
+    {
+        display: inline-block;
+    }
+
+    @media (max-width: 768px) 
+    {
+        .conditions-text
+        {
+            font-size: 12px !important;
+        }
+    }
+
+    @media (max-width: 400px) 
+    {
+        .conditions-text
+        {
+            font-size: 10px !important;
+        }
+
+        .airdrop-conditions h4
+        {
+            font-size: 12px !important;
+        }
+
+        .airdrop-conditions h5
+        {
+            font-size: 10px !important;
+        }
+    }
+
+
+/* end-airdrop styles */

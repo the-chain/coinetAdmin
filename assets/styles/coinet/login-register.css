@@ -1,0 +1,396 @@
+/* start login-register styles */
+
+    .title-behind-login-register
+    {
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 0.5;
+        letter-spacing: -0.9px;
+        text-align: left;
+        color: #ececec;
+    }
+
+    .title-login-register
+    {
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 1.5;
+        letter-spacing: -0.3px;
+        color: #7d7d7d;
+    }
+
+    .text-container-hover-register
+    {
+        top: 11%;
+        left: 10%;
+    }
+
+    .text-container-hover-pr-em
+    {
+        top: 10%;
+        left: 10%;
+    }
+
+    .text-container-hover-recovery
+    {
+        top: 15%;
+        left: 10%;
+    }
+
+    .text-container-hover-delete
+    {
+        top: 20%;
+        left: 10%;
+    }
+
+    .text-container-hover-profile
+    {
+        top: 15%;
+        left: 10%;
+    }
+
+    .text-container-hover-transaction
+    {
+        top: 10%;
+        left: 10%;
+    }
+
+    .text-container-hover-login
+    {
+        top: 12%;
+        left: 10%;
+    }
+
+    .text-container-hover-address
+    {
+        top: 12%;
+        left: 10%;
+    }
+
+    .text-container-hover-airdrop
+    {
+        top: 12%;
+        left: 12%;
+    }
+
+    .text-container-hover-private
+    {
+        top: 15%;
+        left: 12%;
+    }
+
+    .text-container-hover-public
+    {
+        top: 15%;
+        left: 12%;
+    }
+    
+    .login-register .modal-body input, .input-html
+    {
+        width: 100%;
+        height: 31px;
+        border-radius: 3px;
+        background-color: #ffffff;
+        border: solid 1px #d2d2d2;
+        padding-left: 15px;
+        margin-bottom: 5%;
+    }
+
+    .login-register .modal-body input:focus
+    {
+        outline: none;
+        box-shadow: 0px 0px 2px #5cbcff;
+    }
+
+    .login-register .modal-content
+    {
+        padding-top: 6%;
+        padding-bottom: 6%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .login-register .modal-title
+    {
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+        text-align: left;
+        color: #4a4a4a;
+    }
+
+    .login-register .modal-label
+    {
+        font-size: 12px !important;
+        font-weight: 500;
+        line-height: 2;
+        letter-spacing: -0.3px;
+        text-align: left;
+        color: #4a4a4a;
+    }
+
+    .tag_error
+    {
+        color: red !important;
+    }
+
+    .color-red
+    {
+        color: red !important;
+        display: block !important;
+    }
+
+    .line-modal-h
+    {
+        height: 2px !important;
+    }
+
+    .login-register .modal-header 
+    {
+        border: none;
+    }
+
+    .login-register .modal-body 
+    {
+        margin-top: 2%;
+    }
+
+    .login-register .modal-footer 
+    {
+        border:none;
+    }
+
+    .login-register .btn-style
+    {
+        font-size: 12px;
+    }
+
+    .picture-container
+    {
+        position: relative;
+        cursor: pointer;
+        text-align: center; 
+    }
+
+    .picture 
+    {
+        width: 120px;
+        height: 120px;
+        background-color: #999999;
+        border: 4px solid #CCCCCC;
+        color: #FFFFFF;
+        border-radius: 50%;
+        margin: 5px auto;
+        overflow: hidden;
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s; 
+    }
+
+    .picture:hover 
+    {
+          border-color: #2ca8ff; 
+    }
+
+    .picture input[type="file"] 
+    {
+        cursor: pointer;
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0 !important;
+        position: absolute;
+        top: 0;
+        width: 100%; 
+    }
+
+    .picture-src 
+    {
+        width: 100%; 
+    }
+
+    .recovery_link
+    {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .recovery_link:link
+    {
+        text-decoration: none !important;
+    }
+
+    @media (max-width: 992px) 
+    {
+        .text-container-hover-register
+        {
+            top: 7%;
+            left: 10%;
+        }
+
+        .text-container-hover-address
+        {
+            top: 6%;
+            left: 10%;
+        }
+
+        .text-container-hover-profile
+        {
+            top: 11%;
+            left: 11%;
+        }
+
+        .text-container-hover-airdrop
+        {
+            top: 8%;
+            left: 12%;
+        }
+
+        .text-container-hover-public
+        {
+            top: 12%;
+            left: 12%;
+        }
+    }
+
+    @media (max-width: 768px) 
+    {
+        .text-container-hover-pr-em
+        {
+            top: 9%;
+            left: 12%;
+        }
+
+        .title-behind-login-register
+        {
+            font-size: 32px;
+        }
+
+        .title-login-register
+        {
+            font-size: 24px;
+        }
+
+        .text-container-hover-register
+        {
+            top: 6%;
+            left: 10%;
+        }
+
+        .text-container-hover-address
+        {
+            top: 8%;
+            left: 12%;
+        }
+
+        .text-container-hover-login
+        {
+            top: 10%;
+            left: 10%;
+        }
+
+        .text-container-hover-profile
+        {
+            top: 10%;
+            left: 12%;
+        }
+
+        .text-container-hover-airdrop
+        {
+            top: 8%;
+            left: 12%;
+        }
+
+        .text-container-hover-transaction
+        {
+            top: 9%;
+            left: 12%;
+        }
+
+        .text-container-hover-private
+        {
+            top: 11%;
+            left: 12%;
+        }
+
+        .text-container-hover-public
+        {
+            top: 10%;
+            left: 12%;
+        }
+    }
+
+    @media (max-width: 450px) 
+    {
+
+        .text-container-hover-private
+        {
+            top: 10%;
+            left: 12%;
+        }
+
+        .text-container-hover-public
+        {
+            top: 8%;
+            left: 12%;
+        }
+
+        .text-container-hover-register
+        {
+            top: 5%;
+            left: 15%;
+        }
+
+        .text-container-hover-profile
+        {
+            top: 8%;
+            left: 15%;
+        }
+
+        .text-container-hover-airdrop
+        {
+            top: 6%;
+            left: 15%;
+        }
+
+        .text-container-hover-login
+        {
+            top: 10%;
+            left: 15%;
+        }
+
+        .text-container-hover-transaction
+        {
+            top: 8%;
+            left: 15%;
+        }
+
+        .text-container-hover-address
+        {
+            top: 9%;
+            left: 15%;
+        }
+
+        .title-behind-login-register
+        {
+            font-size: 24px;
+        }
+
+        .title-login-register
+        {
+            font-size: 18px;
+        }
+
+        .btn-modal-style 
+        {
+            font-size: 10px;
+        }
+
+        .text-container-hover-pr-em
+        {
+            top: 8%;
+            left: 15%;
+        }
+    }
+
+
+/* end login-register styles */

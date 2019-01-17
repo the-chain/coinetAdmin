@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coinet</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Coinet financing platform"/>
+        <meta name="language" content="spanish">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="coinet, ico, financing, criptomoneda, cryptocurrency, blockchain, stellar">
+
+        <link rel="icon" href="../assets/images/general/iso.png?version=2" type='image/png'>
+        <link rel="apple-touch-icon-precomposed" href="../assets/images/coinet-logos/imagotipo_Coinet_H_Transparente.png" type='image/png'>
+
+        <!--STYLES-->
+        <link rel="stylesheet" href="../assets/styles/bootstrap-formhelpers.min.css">
+        <link rel="stylesheet" href="../assets/styles/bootstrap/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../assets/styles/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/admin.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/airdrop-conditions.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/buy.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/chat-admin.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/chat-user.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-contact.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-foundation.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-advantage.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-header.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-list.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-roadmap.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-investment.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-power.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-projects.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-team.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/dashboard.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/footer.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/general.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/login-register.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/modal-request.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/modal-services.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/modal-terms.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/navbar-header.css">
+        <link rel="stylesheet" href="../assets/styles/datatables/datatables.min.css">
+        <link rel="stylesheet" href="../assets/styles/font-awesome/font-awesome.min.css">
+        <link rel="stylesheet" href="../assets/styles/fonts/montserrat.css">
+        <link rel="stylesheet" href="../assets/styles/fonts/raleway.css">
+        <link rel="stylesheet" href="../assets/styles/fonts/roboto.css">
+        <!--STYLES END-->
+    </head>
+
+    <body>
+        <nav class="navbar navbar-custom navbar-fixed-top" id="mainNav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="brand js-scroll-trigger" href="../transactions/index.html"> <img class="pull-left icon-nav" src="../assets/images/navbar-header/logo-coinet@3x.png" alt="Coinet"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../chat/index.html"><i class="fa fa-envelope"></i> CHAT </a></li>
+                        <li><a href="../socialNetworks/index.html"><i class="fa fa-instagram"></i> REDES </a></li>
+                        <li><a href="../transactions/index.html"><i class="fa fa-usd"></i> TRANSACCIONES</a></li>
+                        <li class="dropdown"> 
+                            <a href="#" class="dropdown-toggle text-lower" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>  admin <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#modal-password_change" data-toggle="modal"><i class="fa fa-key"></i> Cambiar Contraseña</a></li>
+                                <li><a href="../index.html"><i class="fa fa-power-off"></i> Cerrar Sesión</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main dashboard margin-bottom-max">
+            <section id="coinet-dashboard-intro">
+                <div class="container">
+                    <div class="row margin-top-min margin-bottom-prom">
+                        <div class="col-xs-12">
+                            <div class="text-container-over-behind">
+                                <span class="title-behind-team">coinet</span>
+                                <div class="text-container-hover text-container-hover-power">
+                                    <span class="title-container">ADMIN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <table id="conditions-admin-table" class="table table-striped transaccion-table dt-responsive" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>TELEGRAM USER</th>
+                                        <th>CONDICIÓN TELEGRAM</th>                                
+                                        <th>INSTAGRAM USER</th>
+                                        <th>TWITTER USER</th>
+                                        <th>FACEBOOK USER</th>
+                                        <th>CONDICIÓN FOLLOW LIKE</th>
+                                        <th>USER_ID</th>
+                                        <th>EDITAR</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>@JaneDoe</td>
+                                        <td>true</td>
+                                        <td>@JaneDoe</td>
+                                        <td>@JaneDoe</td>
+                                        <td>JaneDoe</td>
+                                        <td>true</td>
+                                        <td>2</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="footer">
+            <div class="container margin-top-prom margin-bottom-prom">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 text-align-center center-vertical-text footer-col-container">
+                        <a class="footer-link" href="#modal-private-sale" data-toggle="modal">CONDICIONES VENTA PRIVADA</a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 text-align-center center-vertical-text footer-col-container">
+                        <a class="footer-link" href="#modal-support" data-toggle="modal">ATENCIÓN AL CLIENTE</a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 text-align-center center-vertical-text footer-col-container">
+                        <a class="footer-link" href="../legalNote/index.html" target="_blank">TÉRMINOS LEGALES</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-align-center">
+                <div class="container-fluid">
+                    <h5 class="copyright_text">
+                        <span> Copyright &copy; 2018 Grupo Coinet 134, C.A.</span>
+                        <br>
+                        <span> RIF J410300418 </span> 
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade login-register" id="modal-support" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form id="form-support" method="post">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png"></button>
+                            <div class="text-container margin-bottom-prom">
+                                <span class="title-behind-login-register">coinet</span>
+                                <div class="text-container-hover text-container-hover-login">
+                                    <span class="title-login-register">Atención al Cliente</span>
+                                </div>
+                            </div>
+                            <hr class="line-article text-align-left margin-left-0 line-modal-h">
+                        </div>
+                        <div class="modal-body">
+                            <div class="row equal">
+                                <div class="col-xs-12">
+                                    <label class="modal-label">Mensaje</label>
+                                    <textarea class="margin-top-min wrapped-input" rows="5" placeholder="Mensaje" name="message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer margin-top-prom">
+                            <div class="row">
+                                <div class="col-xs-12 text-align-right">
+                                    <button type="submit" class="btn btn-airdrop btn-modal-style ">ENVIAR MENSAJE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade airdrop-conditions login-register modal-child" id="modal-private-sale" role="dialog" data-modal-parent="#modal-register">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png"></button>
+                        <div class="text-container margin-bottom-prom">
+                            <span class="title-behind-login-register">coinet</span>
+                            <div class="text-container-hover text-container-hover-private">
+                                <span class="title-login-register">Venta Privada</span>
+                            </div>
+                        </div>
+                        <hr class="line-article text-align-left margin-left-0 line-modal-h">           
+                    </div>            
+                    <div class="modal-body">
+                        <div class="row">                        
+                            <div class="col-md-12">
+                                <h4> CONDICIONES:</h4>
+                                <div class="row">
+                                    <div class="col-xs-2 col-sm-1">
+                                        <h5> 1 </h5>
+                                    </div>
+                                    <div class="col-xs-10 col-sm-11">
+                                        <p class="conditions-text">Descuento del 40% del valor del token <span class="conditions-text-bold">(Compra minima de 0.05 BTC)</span>
+                                       </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-2 col-sm-1">
+                                        <h5> 2 </h5>
+                                    </div>
+                                     <div class="col-xs-10 col-sm-11">
+                                        <p class="conditions-text">Descuento del 50% del valor del token <span class="conditions-text-bold">(Compra minima de 0.1 BTC)</span>
+                                       </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-2 col-sm-1">
+                                        <h5> 2 </h5>
+                                    </div>
+                                     <div class="col-xs-10 col-sm-11">
+                                        <p class="conditions-text">Aquellos que inviten a nuevos inversionistas al proyecto se les entregara el equivalente al 10% de la compra.</span>
+                                       </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-xs-12">
+                            <button class="btn btn-airdrop btn-modal-style float-right" data-dismiss="modal">CERRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade login-register" id="modal-social-admin" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png"></button>
+                        <div class="text-container margin-bottom-prom">
+                            <span class="title-login-register">Redes Sociales</span>
+                        </div>
+                        <hr class="line-article text-align-left margin-left-0 line-modal-h">
+                    </div>
+                    <form id="coinet_form_social" method="post">
+                        <div class="modal-body">
+                            <input class="margin-top-fix hidden" id="user_id" type="text" name="user_id">
+                            <label class="modal-label">TELEGRAM USER</label>
+                            <input class="margin-top-fix" id="telegram_user" type="text" disabled>
+                            <label class="modal-label">CONDICIÓN TELEGRAM</label>
+                            <select id="telegram_con" name="status_telegram">
+                                <option value="0">No Completado</option>
+                                <option value="1">Completado</option>
+                            </select>
+                            <label class="modal-label">INSTAGRAM USER</label>
+                            <input class="margin-top-fix" id="instagram_user" type="text" disabled>
+                            <label class="modal-label">TWITTER USER</label>
+                            <input class="margin-top-fix" id="twitter_user" type="text" disabled>
+                            <label class="modal-label">FACEBOOK USER</label>
+                            <input class="margin-top-fix" id="facebook_user" type="text" disabled>
+                            <label class="modal-label">CONDICIÓN FOLLOW LIKE</label>
+                            <select id="follow_ike" name="status_follow_like">
+                                <option value="0">No Completado</option>
+                                <option value="1">Completado</option>
+                            </select>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <button type="submit" class="btn btn-default btn-modal-style">EDITAR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade login-register" id="modal-password_change" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="../assets/images/coinet-modals/close.png"></button>
+                       <div class="text-container margin-bottom-prom">
+                            <span class="title-behind-login-register">coinet</span>
+                            <div class="text-container-hover text-container-hover-login">
+                                <span class="title-login-register">Cambio Contraseña</span>
+                            </div>
+                        </div>
+                        <hr class="line-article text-align-left margin-left-0 line-modal-h">
+                    </div>
+                    <form id="coinet_form_change" method="post">
+                        <div class="modal-body">
+                           <label class="modal-label">Contraseña Actual</label>
+                           <input class="margin-top-fix" name="actual_password" type="password" placeholder="Contraseña Actual" autocomplete="off">
+                           <label class="modal-label">Nueva Contraseña</label>
+                           <input id="new_password" class="margin-top-fix" name="new_password" type="password" placeholder="Nueva contraseña" autocomplete="off">
+                           <label class="modal-label">Repetir nueva Contraseña</label>
+                           <input class="margin-top-fix" name="new_confirmation" type="password" placeholder="Repetir contraseña" autocomplete="off">
+                        </div>
+                        <div class="modal-footer">
+                           <button type="submit" class="btn btn-airdrop btn-modal-style">ACTUALIZAR</button>
+                        </div>
+                    </form>
+               </div>
+            </div>
+        </div>
+
+        <!--SCRIPTS-->
+        <script src="../assets/js/jquery/jquery.min.js"></script>
+        <script src="../assets/js/bootstrap-formhelpers.min.js"></script>
+        <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+        <script src="../assets/js/bootstrap/datatables/datatables.min.js"></script>
+        <script src="../assets/js/bootstrap/datatables/dataTables.responsive.min.js"></script>
+        <script src="../assets/js/bootstrap/jquery.validate.min.js"></script>
+        <script src="../assets/js/coinet/chat-admin.js"></script>
+        <script src="../assets/js/coinet/chat-user.js"></script>
+        <script src="../assets/js/coinet/main.js"></script>
+        <script src="../assets/js/jquery-easing/jquery.easing.compatibility.js"></script>
+        <script src="../assets/js/jquery-easing/jquery.easing.min.js"></script>
+        <!--SCRIPTS END-->
+
+    </body>
+</html>

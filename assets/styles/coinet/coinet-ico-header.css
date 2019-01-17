@@ -1,0 +1,217 @@
+/* start coinet-ico styles */
+
+    #coinet-ico
+    {
+        background-image: url('../../images/coinet-ico/banner-ico@2x.png');
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: #6C6D78;
+        padding-top: 50px;
+    }
+
+    .progress 
+    {
+        background: rgba(245, 245, 245, 1); 
+        border: 1px solid #323131; 
+        border-radius: 0;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        height: 25px;
+    }
+
+    .progress-bar-custom 
+    {
+        background: linear-gradient(7deg, #63c4ff, #3491fe);
+    }
+
+    .litle 
+    {
+        background: rgba(245, 245, 245, 1); 
+        border: 1px solid #323131; 
+        border-radius: 12px !important;
+        height: 10px;
+    }
+
+    .stellar-ico
+    {
+        width: 42px;
+    }
+    
+    .element1
+    {
+        display:inline-block;
+        margin-right: 4%;
+    } 
+
+    .element2
+    {
+        display:inline-block; 
+    } 
+
+    .intro-cot h3
+    {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: -0.3px;
+        text-align: center;
+        color: #7d7d7d;
+    }
+
+    .intro-text .intro-lead h1
+    {
+        font-size: 48px;
+        font-family: 'Raleway Black', arial;
+        font-weight: 900;
+        font-style: bold;
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .button-reserve
+    {
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border-radius: 20px;
+        border: solid 1px #979797;
+        cursor:pointer;
+        overflow: hidden;
+        text-decoration: none;
+        outline:none;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+        color: #ffffff;
+        width: 145px;
+        outline: none;
+    }
+
+    .button-reserve:visited, .button-reserve:hover, .button-reserve:focus
+    {
+        background-color: Transparent;
+        text-decoration: none;
+        color: #ffffff !important;
+        outline: none;
+    }
+
+    .button-video
+    {	 
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;   
+        margin-right: 20px;	     
+    }			
+		
+
+    .intro-ico-description p
+    {
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: #8d8d8d;
+    }
+
+    .ico-text-little
+    {
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        color: #ffffff;
+    }
+		
+    .info-token 
+    {
+        font-family: Roboto;
+        font-size: 12px;
+        line-height: 1.58;
+        letter-spacing: -0.3px;  
+        color: #ffffff;
+    }
+
+    .btn-text-video	
+    {
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+        color: #ffffff;
+    }
+
+    .text-25px 
+    {
+        font-family: Roboto;
+        font-size: 25px;
+        letter-spacing: -0.3px;
+        color: #ffffff;
+    }
+
+    .text-16px 
+    {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .supply-text-description
+    {
+        font-family: Roboto;
+        font-size: 10px;
+        line-height: 1.9;
+        letter-spacing: -0.2px;
+        color: #ff7b7b;
+        padding-left: 30px;
+    }
+
+    .line-numbers
+    {
+        border-right: solid 1px #979797;
+    }
+
+    .time-numbers
+    {
+        font-family: Roboto;
+        font-size: 25px;
+        letter-spacing: 0.1px;
+        color: #ffffff;
+        display: inherit;
+    }
+
+    .sale-descrip
+    {
+        font-size: 12px;
+        line-height: 1.58;
+        letter-spacing: -0.3px;
+        text-align: left;
+        color: #8d8d8d;
+    }
+
+    @media (max-width: 768px) 
+    {
+        .intro-text .intro-lead h1
+        {
+           font-size: 28px; 
+        }
+
+        #coinet-ico
+        {
+            padding-top: 100px !important;
+            min-height: 300px !important;    
+        }
+    }
+
+    @media (max-width: 400px) 
+    {
+        #coinet-ico .intro-text .intro-lead h1
+        {
+            font-size: 18px !important;     
+        }
+    }
+
+/* end coinet-ico styles */

@@ -1,0 +1,163 @@
+/* buy styles */
+    .cot-text
+    {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.09;
+        letter-spacing: -0.5px;
+        text-align: left;
+    }
+
+    .amount-p-text
+    {
+        font-family: 'Raleway-Bold', arial;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+        text-align: left;
+        color: #4a4a4a;
+    }
+
+    .custom-number
+    {
+        border: solid 1px #d2d2d2;
+        width: 100%;
+    }
+
+    .custom-transaction
+    {
+        width: 100%;
+    }
+
+    .custom-number-p
+    {
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 0.46;
+        letter-spacing: -1.2px;
+        text-align: center;
+        color: #9b9b9b;
+    }
+
+    input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance:textfield;
+    }
+
+    .custom-currency
+    {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: solid 1px #d2d2d2;
+        width: 100%;
+    }
+
+    .custom-currency-p
+    {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.33;
+        text-transform: uppercase;
+        letter-spacing: -0.4px;
+        text-align: center;
+    }
+
+    .custom-line
+    {
+        background-color: #979797; 
+        border-color: #979797;
+        height: 1px !important;
+        width: 100%;
+    }
+
+    .address-title  
+    {
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+        text-align: left;
+        color: #4a4a4a;
+    }
+
+    .address-text 
+    {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 2;
+        letter-spacing: -0.3px;
+        text-align: left;
+        color: #9b9b9b;
+    }
+
+    @media (max-width: 768px) 
+    {
+        .amount-p-text
+        {
+            font-size: 15px;
+        }
+
+        .cot-text
+        {
+            font-size: 18px;
+        }
+
+        .custom-number-p
+        {
+            font-size: 25px;
+        }
+
+        .custom-currency
+        {
+            height: 45px;
+        }
+
+        .custom-currency-p
+        {
+            font-size: 15px;
+        }
+    }
+    
+    @media (max-width: 400px) 
+    {
+        .amount-p-text
+        {
+            font-size: 12px;
+        }
+
+        .cot-text
+        {
+            font-size: 15px;
+        }
+
+        .custom-number-p
+        {
+            font-size: 20px;
+        }
+
+        .custom-currency
+        {
+            height: 40px;
+        }
+
+        .custom-currency-p
+        {
+            font-size: 12px;
+        }
+
+        .address-title  
+        {
+            font-size: 12px;
+        }
+
+        .address-text 
+        {
+            font-size: 8px;
+        }
+    }
+
+/* end buy styles */

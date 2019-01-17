@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coinet</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Coinet financing platform"/>
+        <meta name="language" content="spanish">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="coinet, ico, financing, criptomoneda, cryptocurrency, blockchain, stellar">
+
+        <link rel="icon" href="assets/images/general/iso.png?version=2" type='image/png'>
+        <link rel="apple-touch-icon-precomposed" href="assets/images/coinet-logos/imagotipo_Coinet_H_Transparente.png" type='image/png'>
+
+        <!--STYLES-->
+        <link rel="stylesheet" href="assets/styles/bootstrap-formhelpers.min.css">
+        <link rel="stylesheet" href="assets/styles/bootstrap/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="assets/styles/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/styles/coinet/admin.css">
+        <link rel="stylesheet" href="assets/styles/coinet/airdrop-conditions.css">
+        <link rel="stylesheet" href="assets/styles/coinet/buy.css">
+        <link rel="stylesheet" href="assets/styles/coinet/chat-admin.css">
+        <link rel="stylesheet" href="assets/styles/coinet/chat-user.css">
+        <link rel="stylesheet" href="assets/styles/coinet/coinet-contact.css">
+        <link rel="stylesheet" href="assets/styles/coinet/coinet-foundation.css">
+        <link rel="stylesheet" href="assets/styles/coinet/coinet-ico-advantage.css">
+        <link rel="stylesheet" href="assets/styles/coinet/coinet-ico-header.css">
+        <link rel="stylesheet" href="assets/styles/coinet/coinet-ico-list.css">
+        <link rel="stylesheet" href="assets/styles/coinet/coinet-ico-roadmap.css">
+        <link rel="stylesheet" href="assets/styles/coinet/coinet-investment.css">
+        <link rel="stylesheet" href="assets/styles/coinet/coinet-power.css">
+        <link rel="stylesheet" href="assets/styles/coinet/coinet-projects.css">
+        <link rel="stylesheet" href="assets/styles/coinet/coinet-team.css">
+        <link rel="stylesheet" href="assets/styles/coinet/dashboard.css">
+        <link rel="stylesheet" href="assets/styles/coinet/footer.css">
+        <link rel="stylesheet" href="assets/styles/coinet/general.css">
+        <link rel="stylesheet" href="assets/styles/coinet/login-register.css">
+        <link rel="stylesheet" href="assets/styles/coinet/modal-request.css">
+        <link rel="stylesheet" href="assets/styles/coinet/modal-services.css">
+        <link rel="stylesheet" href="assets/styles/coinet/modal-terms.css">
+        <link rel="stylesheet" href="assets/styles/coinet/navbar-header.css">
+        <link rel="stylesheet" href="assets/styles/datatables/datatables.min.css">
+        <link rel="stylesheet" href="assets/styles/font-awesome/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/styles/fonts/montserrat.css">
+        <link rel="stylesheet" href="assets/styles/fonts/raleway.css">
+        <link rel="stylesheet" href="assets/styles/fonts/roboto.css">
+        <!--STYLES END-->
+    </head>
+
+    <body>
+        <nav class="navbar navbar-custom navbar-fixed-top" id="mainNav">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="brand js-scroll-trigger" href="./index.html"> <img class="pull-left icon-nav" src="assets/images/navbar-header/logo-coinet@3x.png" alt="Coinet"></a>
+                </div>
+            </div>
+        </nav>
+
+        <section id="login-admin" class="login-admin">
+            <div class="container">
+            	<div class="row">
+            	    <div class="col-xs-12 col-sm-10 col-md-6 col-lg-4 col-xs-offset-0 col-sm-offset-1 col-md-offset-2 col-lg-offset-4">
+            			<img id="img-admin" src="assets/images/coinet-logos/Iso_Coinet_Transparente.png" alt="Coinet">
+                        <div class="text-container margin-bottom-prom text-align-center">
+                            <span class="title-login-register">LOGIN</span>
+                        </div>
+                        <form id="coinet_form_login" action="./2FA.html" method="post">
+                            <input class="hidden" name="admin" type="text">
+                            <label class="modal-label">E-mail</label>
+                            <input class="margin-top-fix" name="email" type="email" placeholder="E-mail" autocomplete="off">
+                            <label class="modal-label">Contraseña</label>
+                            <input id="password" class="margin-top-fix" name="password" type="password" placeholder="Contraseña">
+                            <div class="checkbox">
+                                <span class="character-checkbox" onclick="showPassword()"></span>
+                                <span class="modal-label">Ver contraseña</span>
+                            </div>
+                            <button type="submit" class="btn btn-modal-style-admin btn-block">ENVIAR</button>
+                        </form>
+                        <div class="text-align-right margin-top-fix">
+                            <a class="recovery_link" href="#modal-password_recovery" data-toggle="modal">¿Haz olvidado tu contraseña?</a>
+                        </div>
+            		</div>
+            	</div>
+            </div>
+        </section>
+
+        <div class="modal fade login-register modal-child" id="modal-password_recovery" data-modal-parent="#modal-login" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal"><img class="close-img" src="assets/images/coinet-modals/close.png"></button>
+                       <div class="text-container margin-bottom-prom">
+                            <span class="title-behind-login-register">coinet</span>
+                            <div class="text-container-hover text-container-hover-recovery">
+                                <span class="title-login-register">Contraseña</span>
+                            </div>
+                        </div>
+                        <hr class="line-article text-align-left margin-left-0 line-modal-h">
+                    </div>
+                    <form id="coinet_form_recovery" method="post">
+                        <div class="modal-body">
+                           <label class="modal-label">E-mail</label>
+                           <input class="margin-top-fix" name="email" type="email" placeholder="E-mail" autocomplete="off">
+                        </div>
+                        <div class="modal-footer">
+                           <button type="submit" class="btn btn-airdrop btn-modal-style">ENVIAR CLAVE</button>
+                        </div>
+                    </form>
+               </div>
+            </div>
+        </div>
+
+        <!--SCRIPTS-->
+        <script src="assets/js/jquery/jquery.min.js"></script>
+        <script src="assets/js/bootstrap-formhelpers.min.js"></script>
+        <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap/datatables/datatables.min.js"></script>
+        <script src="assets/js/bootstrap/datatables/dataTables.responsive.min.js"></script>
+        <script src="assets/js/bootstrap/jquery.validate.min.js"></script>
+        <script src="assets/js/coinet/chat-admin.js"></script>
+        <script src="assets/js/coinet/chat-user.js"></script>
+        <script src="assets/js/coinet/main.js"></script>
+        <script src="assets/js/jquery-easing/jquery.easing.compatibility.js"></script>
+        <script src="assets/js/jquery-easing/jquery.easing.min.js"></script>
+        <!--SCRIPTS END-->
+
+    </body>
+</html>

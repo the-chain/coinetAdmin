@@ -1,0 +1,172 @@
+/* start coinet-foundation styles */
+
+    #coinet-4geeks
+    {
+        background-image: url('../../images/coinet-foundation/imagen-fundacion.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .row-tape
+    {
+        background-image: url('../../images/coinet-foundation/cinta@3x.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .text-container-hover-studies
+    {
+        bottom: -40%;
+        left: 0;
+    }
+
+    .border-r-20
+    {
+        border-radius: 20px;
+    }
+   
+    .title-estudios 
+    {
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 1.11;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: #cccccc;
+    }
+
+    .title-behind-estudios
+    {
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 0.5;
+        letter-spacing: -0.9px;
+        text-align: center;
+        color: #4c709c;
+    }
+
+    .row-scholarship 
+    {
+        border-radius: 10px;
+        padding: 2%;
+        background-color: #ffffff;
+    }
+
+    .title-scholarship 
+    {
+        font-family: 'Raleway Black', arial;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: -0.6px;
+        text-align: left;
+        color: #4a4a4a;
+    }
+
+    .text-4geeks
+    {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.58;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #9b9b9b;
+    }
+
+    .text-number-likes-4geeks
+    {
+        color: #4a4a4a;
+    }
+
+    #coinet-alliances
+    {
+        background-color: #eaeaea;
+    }
+
+  
+    .title-behind-companies
+    {
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 0.5;
+        letter-spacing: -0.9px;
+        text-align: left;
+        color: #d4d8dc;
+    }
+
+    .title-companies
+    {
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #4a4a4a;
+    }
+
+    .white-box 
+    {
+        padding: 20px;
+        min-height: 60px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .company-name
+    {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 1.3;
+        letter-spacing: -0.4px;
+        color: #4a4a4a;
+    }
+
+    .company-name-ico
+    {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.3;
+        letter-spacing: -0.4px;
+        color: #4a4a4a;
+    }
+
+    .text-container-hover-affi
+    {
+        top: 70%;
+        left: 10%;
+    } 
+
+    @media (max-width: 400px) 
+    {
+        .margin-bottom-max
+        {
+            margin-bottom: 60px;
+        }
+
+        .title-estudios 
+        {
+            font-size: 22px;
+        }
+
+        .title-behind-estudios
+        {
+            font-size: 25px;
+        }
+
+        .row-scholarship 
+        {
+            padding: 20px;
+        }
+
+        .title-behind-companies
+        {
+            font-size: 25px;
+        }
+
+        .white-box 
+        {
+            padding: 10px;
+        }
+    }
+
+
+/* end coinet-foundation styles */

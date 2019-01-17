@@ -1,0 +1,323 @@
+/* start coinet-team styles */
+
+	#coinet-team
+	{
+		background-color: #f7f7f7;
+	}
+
+	.title-behind-team
+	{
+		font-family: 'Raleway Black', arial;
+		font-size: 38px;
+		font-weight: 900;
+		line-height: 0.5;   
+		letter-spacing: -0.9px;
+		color: #d4d8dc;
+	}
+
+	.text-container-hover-charge
+	{
+		top: 5%;
+		left: 55%;
+	}
+
+	.coinet-team-container
+	{
+		background-color: #ffffff;
+		background-clip: content-box;
+	}
+
+	.charge-style 
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 9px;
+		font-weight: 300;
+		letter-spacing: 0.9px;
+		color: #ffffff;
+		border-radius: 10px;
+		background-color: #4a4a4a;
+		padding: 1%;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+
+	.text-container-hover-name
+	{
+		bottom: 8%;
+		left: 15%;
+	}
+
+	.charge-name 
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 9px;
+		font-weight: 300;
+		letter-spacing: -0.3px;
+		color: #ffffff;
+	}
+
+	.person-name
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+		letter-spacing: -0.6px;
+		color: #ffffff;
+	}
+
+	.text-container-hover-linkedin
+	{
+		bottom: 14%;
+		left: 75%;
+	}
+
+	.motto-container
+	{
+		padding-top: 5%;
+		padding-bottom: 5%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.motto-container-little
+	{
+		padding-right: 5%;
+	}
+
+	.motto-text
+	{
+		font-family: 'Raleway', arial;
+		font-size: 11px;
+		font-weight: 200;
+		line-height: 1.5;
+		letter-spacing: -0.4px;
+		text-align: justify;
+		color: #4a4a4a;
+	}
+
+	.employee-charge 
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 9px;
+		font-weight: 300;
+		letter-spacing: -0.3px;
+		text-align: left;
+		color: #4a4a4a;
+	}
+
+	.employee-name
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+		letter-spacing: -0.6px;
+		text-align: left;
+		color: #4a4a4a;
+	}
+
+	.collage-hover 
+  	{
+  		background-color: #3e3e3e;
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    opacity: 0.9;
+	    transition: all ease 0.5s;
+	    -webkit-transition: all ease 0.5s;
+	    -moz-transition: all ease 0.5s;
+  	}
+
+  	.collage-hover .collage-hover-content
+	{
+		position: absolute;
+		width: 50%;
+		top: 40%;
+		left: 8%;
+	}
+
+	.collage-hover-title
+	{
+		font-family: 'Raleway-Bold', arial;
+		font-size: 15px;
+  		font-weight: bold;
+		letter-spacing: -0.6px;
+  		text-align: left;
+  		color: #ffffff;
+	}
+
+	.collage-hover-date
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size: 9px;
+		font-weight: 300;
+		letter-spacing: -0.3px;
+		text-align: left;
+		color: #ffffff;
+	}
+
+	.img-collage-1
+	{
+		padding-right: 0;
+	}
+
+	.img-collage-2
+	{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.img-collage-3
+	{
+		padding-left: 0;
+	}
+
+	.img-collage-4
+	{
+		padding-right: 0;
+	}
+
+	.img-collage-5
+	{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.img-collage-6
+	{
+		padding-left: 0;
+	}
+
+	.carousel-indicators li 
+	{
+	    display: inline-block;
+	    background-color: #7d7d7d;
+	}
+
+	.carousel-indicators li.active
+	{
+	    display: inline-block;
+	    background-color: black;
+	}
+
+	.carousel-caption
+	{
+	    color: #212121;
+	}
+
+	.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+	@media (max-width: 992px) 
+	{
+		.img-employee-big
+		{
+			border-radius: 5%;
+		}
+
+		.img-collage-2
+		{
+			padding-right: 15px;
+		}
+
+		.img-collage-3
+		{
+			padding-right: 0;
+			padding-left: 15px;
+		}
+
+		.img-collage-4
+		{
+			padding-right: 15px;
+			padding-left: 0;
+		}
+
+		.img-collage-5
+		{
+			padding-left: 15px;
+		}
+	}
+
+	@media (max-width: 768px) 
+	{
+		.img-collage-1
+		{
+			padding-right: 15px;
+		}
+
+		.img-collage-2
+		{
+			padding-left: 15px;
+		}
+
+		.img-collage-3
+		{
+			padding-right: 15px;
+		}
+
+		.img-collage-4
+		{
+			padding-left: 15px;
+		}
+
+		.img-collage-5
+		{
+			padding-right: 15px;
+		}
+
+		.img-collage-6
+		{
+			padding-left: 15px;
+		}
+
+		.linkedin-img
+  		{
+  			width: 30px;
+  		}
+
+  		.title-behind-companies
+    	{
+	        font-size: 25px;
+    	}
+
+    	.title-behind-team
+		{
+			font-size: 25px;
+		}
+
+    	.carousel-caption h3
+		{
+	    	font-size: 16px !important;
+		}
+	}
+	
+	@media (max-width: 400px) 
+	{
+		.title-behind-team
+		{
+			font-size: 20px;
+		}
+
+		.title-container
+		{
+			font-size: 18px;
+		}
+
+		.collage-hover 
+  		{
+		    opacity: 0;
+  		}
+
+  		.linkedin-img
+  		{
+  			width: 25px;
+  		}
+
+  		.employee-name
+		{
+			font-size: 12px;
+		}
+	}
+
+/* end coinet-team styles */

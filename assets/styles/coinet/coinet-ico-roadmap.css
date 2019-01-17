@@ -1,0 +1,205 @@
+/* start coinet-ico-roadmap styles */
+
+	#coinet-ico-roadmap
+	{
+		background-color: #212121;
+	}
+
+	.phases
+	{
+		background-image: url('../..//images/coinet-ico/vertical-line-b.png');
+		background-repeat: no-repeat;
+        background-size: 100% 100%;
+	}
+
+	.circle-date 
+	{
+		width: 50%;
+		position: relative; 
+		border: solid 2px #3d9bff;
+		border-radius: 100%; 
+		line-height: 50px; 
+		text-align: center; 
+		background-color: #303030;
+		z-index: 2;
+		font-size: 15px;
+		font-weight: bold;
+		letter-spacing: -0.6px;
+		text-align: center;
+		color: #9b9b9b;
+	}
+
+	.circle-date:first-child 
+	{
+		margin-top: 0;
+	}
+
+	.circle-date:before 
+	{
+		position: absolute; 
+		border: solid 2px #3d9bff;
+		width: 0; 
+		height: 50px; 
+		display: block; 
+		content: ''; 
+		left: 50%;
+		z-index: 1; 
+		top: -54px; 
+		margin-left: -1px;
+	}
+
+	.circle-date:first-child:before 
+	{
+		display: none;
+	}
+
+	.date-road
+	{
+		pointer-events: none;
+		cursor: default;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		letter-spacing: -0.6px;
+		text-align: right;
+		color: #4a4a4a;
+		text-transform: uppercase;
+	}
+
+	.event-description-container
+	{
+		padding: 20px;
+		border-radius: 10px;
+  		background-color: #303030;
+	}
+
+	.event-description
+	{
+		font-size: 12px;
+		line-height: 1.5;
+		letter-spacing: -0.4px;
+		text-align: left;
+		color: #ffffff;
+	}
+
+	.background-color-white-event
+	{
+		background-color: #ffffff;
+	}
+
+	.background-color-grey-event
+	{
+		background-color: #878787;
+	}
+	
+	.background-color-grey-date-1
+	{
+		background-color: #d8d8d8;
+		border: solid 2px #4a4a4a;
+	}
+
+	.background-color-grey-date-2
+	{
+		background-color: #575757;
+  		border: solid 2px #bebdbd;
+	}
+
+	.color-grey-event-description
+	{
+		color: #4a4a4a;
+	}
+
+
+	.modal-month .modal-header 
+    {
+        border-color: #69cdec;
+    }
+
+	.modal-month .modal-content
+    {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .modal-month .modal-body
+    {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .modal-month .modal-title
+    {
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+        text-align: left;
+        color: #4a4a4a;
+        text-transform: uppercase;
+    }
+
+    .modal-month-descript
+    {
+    	font-size: 12px;
+        font-weight: 500;
+        line-height: 2;
+        letter-spacing: -0.3px;
+        text-align: justify;
+        color: #9b9b9b;
+    }
+
+    .date-road:visited, .date-road:hover, .date-road:active, .date-road:focus
+	{
+		text-decoration: none !important;
+		color: #4a4a4a !important;
+		outline: none;
+	}
+
+	.blue-word:visited, .blue-word:hover, .blue-word:active, .blue-word:focus
+	{
+		text-decoration: none !important;
+		color: #2db7d7 !important;
+		outline: none;
+	}
+
+	@media (max-width: 768px) 
+    {
+    	.phases
+		{
+			background-image: none;
+		}
+
+		.circle-date 
+		{
+			width: 100%;
+		}
+
+		.month-container
+		{
+			text-align: center !important;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			border-bottom: solid 1px #bebdbd; 
+		}
+
+		.month-no-margin
+		{
+			border-bottom: none !important;
+		}
+
+		.title-container
+		{
+			font-size: 18px !important;
+		}
+
+		.date-road
+		{
+			pointer-events: auto;
+			cursor: pointer;
+		}
+	}
+
+/* end coinet-ico-roadmap styles */

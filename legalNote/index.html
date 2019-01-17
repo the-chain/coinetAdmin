@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coinet</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Coinet financing platform"/>
+        <meta name="language" content="spanish">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="coinet, ico, financing, criptomoneda, cryptocurrency, blockchain, stellar">
+
+        <link rel="icon" href="../assets/images/general/iso.png?version=2" type='image/png'>
+        <link rel="apple-touch-icon-precomposed" href="../assets/images/coinet-logos/imagotipo_Coinet_H_Transparente.png" type='image/png'>
+
+        <!--STYLES-->
+        <link rel="stylesheet" href="../assets/styles/bootstrap-formhelpers.min.css">
+        <link rel="stylesheet" href="../assets/styles/bootstrap/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../assets/styles/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/admin.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/airdrop-conditions.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/buy.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/chat-admin.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/chat-user.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-contact.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-foundation.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-advantage.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-header.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-list.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-ico-roadmap.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-investment.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-power.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-projects.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/coinet-team.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/dashboard.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/footer.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/general.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/login-register.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/modal-request.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/modal-services.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/modal-terms.css">
+        <link rel="stylesheet" href="../assets/styles/coinet/navbar-header.css">
+        <link rel="stylesheet" href="../assets/styles/datatables/datatables.min.css">
+        <link rel="stylesheet" href="../assets/styles/font-awesome/font-awesome.min.css">
+        <link rel="stylesheet" href="../assets/styles/fonts/montserrat.css">
+        <link rel="stylesheet" href="../assets/styles/fonts/raleway.css">
+        <link rel="stylesheet" href="../assets/styles/fonts/roboto.css">
+        <!--STYLES END-->
+    </head>
+
+    <body>
+        <nav class="navbar navbar-custom navbar-fixed-top" id="mainNav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="brand js-scroll-trigger" href="home/index.html"> <img class="pull-left icon-nav" src="../assets/images/navbar-header/logo-coinet@3x.png" alt="Coinet"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="../assets/images/navbar-header/espa-ol-img.png" alt="Español"> <span class="caret"></span></a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="./index.html"><img src="../assets/images/navbar-header/espa-ol-img.png" alt="Español"> ESPAÑOL</a></li>
+                            <li><a href="./index-english.html"><img src="../assets/images/navbar-header/uk-img.png" alt="English"> ENGLISH</a></li>
+                          </ul>                
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main">
+            <section class="legal-note">
+                <div class="container">
+                    <div class="row row-centered margin-top-prom margin-bottom-prom">
+                        <div class="col-xs-12">
+                            <span class="title-container">NOTA LEGAL {<span class="blue-word">COINET</span>}</span>
+                        </div>
+                    </div>
+                    <div class="margin-bottom-prom">
+                        <div class="row equal center-vertical-text margin-bottom-min">
+                            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-xs-offset-0">
+                                <p class="evolution-text margin-bottom-min">Descargo de responsabilidad financiera y uso, cookies, privacidad y políticas de uso y términos y condiciones:</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">GRUPO COINET 134, C.A. (en lo sucesivo, &quot;nosotros&quot;)</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Financiero:</p>
+                                <p class="evolution-text margin-bottom-prom">No proporciona asesoramiento de inversión individual y no toma en cuenta las circunstancias individuales en su contenido y no está registrado para proporcionar asesoramiento financiero de ningún tipo y solo ofrece opciones.</p>
+                                <p class="evolution-text margin-bottom-prom">No es un comerciante o corredor o asesor financiero y no está afiliado a ninguna empresa financiera, de inversión o asesora y no ofrece ni solicita mantener, vender o comprar ninguna inversión o instrumento financiero de ninguna clase de activos, incluidos servicios públicos, valores, monedas o coleccionables.</p>
+                                <p class="evolution-text margin-bottom-prom">No participa en ninguna actividad que requiera registro con ninguna autoridad reguladora.</p>
+                                <p class="evolution-text margin-bottom-prom">No garantiza la integridad, exactitud o corrección de ningún material disponible, todo lo cual está sujeto a cambios sin previo aviso y no es responsable de ninguna ganancia o pérdida derivada de las opiniones expresadas.</p>
+                                <p class="evolution-text margin-bottom-prom">Deja en claro que cualquier opinión de cualquier representante es su opinión y no necesariamente la opinión de nosotros.</p>
+                                <p class="evolution-text margin-bottom-prom">No tiene ninguna responsabilidad por los productos, inversiones o instrumentos financieros discutidos en los materiales en cuanto a su estado regulado o no y considera que todos los productos o instrumentos financieros son potencialmente no regulados, no revisados, no aprobados por cualquier autoridad reguladora de valores del estado, y cualquier otro organismo regulador financiero a nivel internacional y que cualquier declaración en sentido contrario es probable que sea un delito en su jurisdicción.</p>
+                                <p class="evolution-text margin-bottom-prom">Considera que todas las discusiones en sus materiales pertenecen a productos, inversiones o instrumentos financieros y, como tales, pueden constituir valores de conformidad con las leyes de valores federales y estatales de EE. UU., así como con las leyes de seguridad internacionales. Como tales, pueden no ser apropiados u ofrecidos a inversores que residan en los Estados Unidos o en cualquier país.</p>
+                                <p class="evolution-text margin-bottom-prom">Es claro para todos sus miembros, lectores, oyentes y televidentes que una decisión de inversión debe basarse en el propio examen del emisor y del producto emitido por el inversor, incluida la posible recompensa, pérdida, mérito y riesgo en todas y cada una de las inversiones, incluido el riesgo de una pérdida completa. Además, considera que todos los productos, inversiones o instrumentos financieros discutidos como de alto riesgo deben ser considerados solo por personas o entidades que pueden soportar la pérdida de toda su inversión y que los posibles inversionistas deben antes consultar con asesores financieros y representantes regulados dentro de su jurisdicción.</p>
+                                <p class="evolution-text margin-bottom-prom">Se hace saber que la Comisión de Valores, la Autoridad de Conducta Financiera y autoridades similares en muchas otras naciones han advertido fuertemente a los inversores que residen en los EE. UU. y en otros lugares que los productos discutidos pueden constituir valores que son ofertas de seguridad no registradas y también da a conocer los inversores e inversores estadounidenses todas las demás naciones pueden ser incapaces de recuperar las pérdidas sufridas en caso de fraude o robo.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Política de correspondencia por correo electrónico:</p>
+                                <p class="evolution-text margin-bottom-prom">Los correos electrónicos y cualquier archivo transmitido dentro de ellos son confidenciales y están destinados únicamente para el uso de la(s) persona(s) o entidad(es) a quien están dirigidos. Si recibió un correo electrónico por error, notifíquelo al administrador del sistema. Nuestros correos electrónicos contienen información confidencial y están destinados solo para la persona nombrada. Si usted no es el destinatario del nombre, no debe difundir, distribuir ni copiar ningún correo electrónico de nuestra parte. Notifique de inmediato al remitente por correo electrónico si ha recibido un correo electrónico por error y elimínelo de su sistema. Si no es el destinatario previsto, se le notificará que la divulgación, copia, distribución o realización de cualquier acción basada en los contenidos está estrictamente prohibida.</p>
+                                <p class="evolution-text margin-bottom-prom"><span class="evolution-text-bold">ADVERTENCIA: </span>aunque hemos tomado precauciones razonables para garantizar que no haya virus presentes en nuestros correos electrónicos, la empresa no puede aceptar responsabilidad por cualquier pérdida o daño que surja del uso de cualquier correo electrónico o archivo adjunto enviado por nosotros.</p>
+                                <p class="evolution-text margin-bottom-prom">Ningún empleado está autorizado para concluir ningún acuerdo vinculante en nombre nuestro con otra persona por correo electrónico sin la confirmación expresa por escrito de uno de nuestros directores principales.</p>
+                                <p class="evolution-text margin-bottom-prom">No aceptamos ninguna responsabilidad por el contenido de nuestros correos electrónicos, o por las consecuencias de cualquier acción tomada sobre la base de la información provista a menos que esa información sea posteriormente confirmada por escrito. Si no es el destinatario previsto, se le notificará que la divulgación, copia, distribución o realización de cualquier acción basada en los contenidos está estrictamente prohibida.</p>
+                                <p class="evolution-text margin-bottom-prom">Todos los puntos de vista u opiniones presentados en nuestros correos electrónicos son exclusivos del autor y no representan necesariamente a aquellos de nosotros. Los empleados y contratistas de nosotros están expresamente obligados a no hacer declaraciones difamatorias y no infringir ni autorizar ninguna infracción de derechos de autor o cualquier otro derecho legal mediante comunicaciones por correo electrónico.</p>
+                                <p class="evolution-text margin-bottom-prom">Cualquier comunicación de este tipo es contraria a nuestra política y está fuera del alcance del empleo o la subcontratación del individuo en cuestión. No aceptaremos ninguna responsabilidad con respecto a dicha comunicación, y el empleado o contratista responsable será personalmente responsable de cualquier daño u otra responsabilidad que surja.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Política de Cookies:</p>
+                                <p class="evolution-text margin-bottom-prom">¿Qué son las Cookies? Como es práctica común en casi todos los sitios web profesionales, este sitio utiliza cookies, que son pequeños archivos que se descargan en su computadora para mejorar su experiencia. Esta página describe qué información recopilan, cómo la usamos y por qué a veces necesitamos almacenar estas cookies.</p>
+                                <p class="evolution-text margin-bottom-prom">También compartiremos cómo puede evitar que estas cookies se almacenen, sin embargo, esto puede degradar o &#39;romper&#39; ciertos elementos de la funcionalidad del sitio.</p>
+                                <p class="evolution-text margin-bottom-prom">¿Cómo utilizamos las cookies? Utilizamos las cookies por una variedad de razones detalladas a continuación. Desafortunadamente, en la mayoría de los casos no existen opciones estándar de la industria para deshabilitar las cookies sin deshabilitar la funcionalidad y las características que agregan a nuestros sitios.</p>
+                                <p class="evolution-text margin-bottom-prom">Se recomienda que deje todas las cookies si no está seguro de si las necesita o no en caso de que se utilicen para proporcionar un servicio que utiliza. Deshabilitar cookies Puede evitar la configuración de cookies mediante el ajuste de la configuración de su navegador.</p>
+                                <p class="evolution-text margin-bottom-prom">Tenga en cuenta que deshabilitar las cookies afectará la funcionalidad de este y muchos otros sitios web que visita. La inhabilitación de las cookies generalmente también provocará la deshabilitación de ciertas funciones y características de los sitios turísticos. Por lo tanto, se recomienda que no desactive las cookies. Las cookies que establecemos. Si usted crea una cuenta con nosotros, utilizaremos cookies para la administración del proceso de registro y la administración general. Estas cookies generalmente se eliminarán cuando finalice la sesión, sin embargo, en algunos casos, pueden permanecer después para recordar las preferencias de su sitio cuando se desconecta. Utilizamos cookies cuando está conectado para que podamos recordar este hecho. Esto evita que tenga que iniciar sesión cada vez que visita una página nueva. Por lo general, estas cookies se eliminan o borran al cerrar la sesión para garantizar que solo pueda acceder a funciones y áreas restringidas cuando haya ingresado.</p>
+                                <p class="evolution-text margin-bottom-prom">Nuestros sitios ofrecen boletines o servicios de suscripción por correo electrónico y las cookies pueden usarse para recordar si ya está registrado y si desea mostrar ciertas notificaciones que solo pueden ser válidas para usuarios suscritos / no suscritos.</p>
+                                <p class="evolution-text margin-bottom-prom">Cuando nuestros sitios ofrecen comercio electrónico o medios de pago y algunas cookies son esenciales para garantizar que su pedido se recuerde entre páginas para que podamos procesarlo correctamente.</p>
+                                <p class="evolution-text margin-bottom-prom">De vez en cuando ofrezca encuestas y cuestionarios a los usuarios para proporcionarle información interesante, herramientas útiles o para comprender nuestra base de usuarios con mayor precisión.</p>
+                                <p class="evolution-text margin-bottom-prom">Estas encuestas pueden utilizar cookies para recordar quién ya participó en una encuesta o para proporcionarle resultados precisos después de cambiar de página. Cuando envía datos a través de un formulario como los que se encuentran en las páginas de contacto o formularios de comentarios, las cookies pueden configurarse para recuerde los detalles de su usuario para la correspondencia futura.</p>
+                                <p class="evolution-text margin-bottom-prom">Para brindarle una excelente experiencia en este sitio, proporcionamos la funcionalidad para establecer sus preferencias sobre cómo se ejecuta este sitio cuando lo utiliza. Para recordar sus preferencias, debemos establecer cookies para que se pueda llamar a esta información cada vez que interactúa con una página que se ve afectada por sus preferencias.</p>
+
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Cookies de terceros:</p>
+                                <p class="evolution-text margin-bottom-prom">En algunos casos especiales, también utilizamos cookies proporcionadas por terceros de confianza. La siguiente sección detalla las cookies de terceros que puede encontrar a través de este sitio. Este sitio utiliza Google Analytics, que es una de las soluciones de análisis más extendidas y confiables en la web para ayudarnos a comprender cómo usa el sitio y cómo podemos mejorar tu experiencia. Estas cookies pueden rastrear cosas tales como cuánto tiempo pasa en el sitio y las páginas que visita para que podamos continuar produciendo contenido atractivo.</p>
+                                <p class="evolution-text margin-bottom-prom">Para obtener más información sobre las cookies de Google Analytics, consulte la página oficial de Google Analytics.</p>
+                                <p class="evolution-text margin-bottom-prom">Los análisis de terceros se utilizan para rastrear y medir el uso de este sitio para que podamos seguir produciendo contenido atractivo.</p>
+                                <p class="evolution-text margin-bottom-prom">Estas cookies pueden rastrear cosas tales como cuánto tiempo pasa en el sitio o páginas que visita, lo que nos ayuda a comprender cómo podemos mejorar el sitio para usted. De vez en cuando probamos nuevas funciones y hacemos cambios sutiles en la forma en que el sitio está entregado. Cuando todavía estamos probando nuevas características, estas cookies pueden utilizarse para garantizar que usted reciba una experiencia coherente mientras se encuentra en el sitio, a la vez que nos aseguramos de comprender qué optimizaciones aprecian más nuestros usuarios.</p>
+                                <p class="evolution-text margin-bottom-prom">Como vendemos productos, es importante que comprendamos estadísticas sobre cuántos de los visitantes de nuestro sitio realmente realiza una compra y, como tal, este es el tipo de datos que estas cookies rastrearán. Esto es importante para usted, ya que significa que podemos hacer predicciones de negocios que nos permitan monitorear con precisión nuestros costos de publicidad y productos para garantizar el mejor precio posible.</p>
+                                <p class="evolution-text margin-bottom-prom">En algunos casos, podemos proporcionarle contenido personalizado basado en lo que nos dice acerca de usted, ya sea directa o indirectamente con su visita. Este tipo de cookies simplemente nos permiten proporcionarle contenido que creemos que puede interesarle y ayudarlo a identificar sus interacciones pasadas a fin de proporcionar una experiencia de usuario mejorada.</p>
+                                <p class="evolution-text margin-bottom-prom">También utilizamos botones y / o complementos de redes sociales en este sitio. que le permiten conectarse con su red social de varias maneras.</p>
+                                <p class="evolution-text margin-bottom-prom">Los sitios de redes sociales establecerán cookies a través de nuestros sitios que pueden usarse para mejorar su perfil en su sitio o contribuir a los datos que guardan para diversos fines detallados en sus respectivas políticas de privacidad. Más información, eso ha aclarado las cosas para usted y como era anteriormente si hay algo de lo que no está seguro, ya sea que lo necesite o no, generalmente es más seguro dejar habilitadas las cookies en caso de que interactúe con una de las funciones que utiliza en nuestro sitio. Sin embargo, si aún está buscando más información, puede contactarnos a través de este sitio web. Política de privacidad: Entendemos la importancia de su privacidad personal. Por lo tanto, hemos creado esta Política de privacidad para que sepa cómo usamos y divulgamos su información cuando la pone a nuestra disposición. La Política de privacidad a continuación divulga nuestras prácticas relacionadas con el sitio web de recopilación y uso de información ubicado en este sitio web u otros dominios dentro de su red, los sitios web móviles relacionados y cualquier aplicación móvil (colectivamente, los &quot;Sitios web&quot;) y el servicio proporcionado (el &quot;Servicio &quot;).</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Al utilizar o acceder a los Sitios web y al Servicio, usted indica que acepta estar obligado por esta Política de privacidad.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">SI NO ESTÁ DE ACUERDO CON ESTA POLÍTICA DE PRIVACIDAD, NO PUEDE ACCEDER O UTILIZAR NUESTRO SERVICIO O PARTICIPAR EN NUESTROS SERVICIOS.</p>
+                                <p class="evolution-text">Los aspectos clave de nuestras prácticas de privacidad descritas en esta Política de privacidad incluyen las siguientes explicaciones: </p>
+                                <ul class="margin-bottom-prom">
+                                    <li class="evolution-text">
+                                        <p>La información que recopilamos y por qué la recopilamos.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Cómo usamos esa información.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Cómo compartimos información.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Las opciones que ofrecemos. Información de identificación personal que recopilamos: podemos solicitarle, o puede enviar voluntariamente, información de identificación personal cuando usa el Servicio.</p>
+                                    </li>
+                                </ul>
+                                <p class="evolution-text">La información de identificación personal que puede proporcionarnos podría incluir, entre otros: </p>
+                                <ul class="margin-bottom-prom">
+                                    <li class="evolution-text">
+                                        <p>Su nombre.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Su información de contacto (incluyendo, entre otros, dirección y dirección de correo electrónico).</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Su dirección IP.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Otra información personal. Información no personal o agregada que recopilamos: cuando accede a nuestro Servicio, podemos recopilar automáticamente información que no le identifica personalmente, como la dirección IP de host, páginas web visitadas, tipo de navegador, sistema operativo, servicio de referencia, información de búsqueda, tipo de dispositivo, visitas a la página, hábitos de uso y navegación en el Servicio y datos similares.</p>
+                                    </li>
+                                </ul>
+                                <p class="evolution-text margin-bottom-prom">También podemos agregar información demográfica recopilada de nuestros usuarios (como el número de usuarios en una ubicación geográfica particular) de una manera que no identifique a ningún individuo.</p>
+                                <p class="evolution-text margin-bottom-prom">También podemos agregar información recolectada fuera de línea en relación con el Servicio, obtener información que no sea de identificación personal de fuentes de terceros y desarrollar información agregada al anonimizar la información de identificación personal recopilada previamente. Es posible a veces cuando se recopila información no personal identificable a través de medios automáticos que podemos recopilar o recibir información personalmente identificable que está mezclada con la información no personal identificable.</p>
+                                <p class="evolution-text margin-bottom-prom">Si bien haremos todos los esfuerzos razonables para evitar dicha recopilación incidental de datos, aún existe la posibilidad. Si cree que hemos recopilado inadvertidamente su información personal, avísenos a través de los métodos de contacto en este sitio web.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Uso de la información:</p>
+                                <p class="evolution-text">solo usaremos su información de identificación personal como se describe a continuación, a menos que haya dado su consentimiento específico para otro tipo de uso, ya sea Cuándo se recopila la información personal identificable de usted o mediante otra forma de consentimiento suyo o notificación a usted:</p>
+                                <ul class="margin-bottom-prom">
+                                    <li class="evolution-text">
+                                        <p>Podemos compartir su información de identificación personal recopilada en relación con la prestación del Servicio.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Podemos usar su información de identificación personal para responder a sus preguntas o solicitudes.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Podemos utilizar su información de identificación personal para enviarle correos electrónicos de vez en cuando sobre nuestros servicios, pero no proporcionaremos su información personal identificable a terceros para que se comuniquen con usted directamente a menos que lo permita esta Política de privacidad o usted brinde su consentimiento.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Podemos compartir su información de identificación personal con terceros (colectivamente, los "Proveedores de ThirdParty") para promover el propósito para el que nos proporcionó dicha información. Por ejemplo, podemos compartir su información con una plataforma de mercadeo por correo electrónico, con el propósito de enviar correos electrónicos. Le instamos a que lea las prácticas de privacidad de todos nuestros Proveedores de terceros antes de enviar cualquier información de identificación personal a través del Servicio.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Podemos divulgar información de identificación personal como lo exige la ley o el proceso legal.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Podemos divulgar información de identificación personal para investigar sospechas de fraude, acoso u otras violaciones de cualquier ley, regla o regulación, o los términos o políticas para nuestros servicios o nuestros patrocinadores.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Podemos transferir su información de identificación personal en relación con la venta o fusión o cambio de control de nosotros o la división responsable de los servicios a los que se asocia su información de identificación personal. </p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Podemos compartir su información de identificación personal con un afiliado de nosotros que pertenece a la misma familia corporativa que nosotros, siempre que sus prácticas de privacidad sean sustancialmente similares a las nuestras. No podemos usar información no identificable o agregada para fines permitidos. por ley y se puede compartir con cualquier número de partes, siempre que dicha información no lo identifique específicamente.</p>
+                                    </li>
+                                </ul>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Cookies y tecnologías similares:</p>
+                                <p class="evolution-text margin-bottom-prom"> "Cookies" son piezas de información que un servicio puede colocar en su computadora con el fin de facilitar y mejorando su comunicación e interacción con ese servicio. Muchos servicios usan cookies para estos propósitos.</p>
+                                <p class="evolution-text margin-bottom-prom">Podemos utilizar cookies (y elementos similares como gifs transparentes, balizas web, etiquetas, etc.) en nuestro Servicio para personalizar su visita y para otros fines a fin de que su visita sea más conveniente o para que podamos mejorar nuestro Servicio. También podemos usar y colocar cookies (y elementos similares) en su computadora de nuestros proveedores de servicios externos en relación con el Servicio, como un proveedor de análisis que nos ayude a administrar y analizar el uso del Servicio, como se describe más detalladamente a continuación. Además, nuestros anunciantes y socios comerciales pueden establecer cookies y artículos similares en su computadora cuando usa nuestro Servicio. Puede detener o restringir la ubicación de cookies en su computadora o eliminarlas de su navegador ajustando las preferencias de su navegador web, en cuyo caso puede seguir utilizando nuestro Servicio, pero puede interferir con algunas de sus funciones. No utilizamos cookies ni elementos similares para recuperar automáticamente información de identificación personal de su computadora sin su conocimiento. Si elimina sus cookies, cambia de navegador o usa una cookie diferente, es posible que nuestra cookie (o una cookie de exclusión voluntaria) deje de funcionar y tendrá que volver a ingresar (u optar por no participar).</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Analítica y seguimiento de conversiones:</p>
+                                <p class="evolution-text margin-bottom-prom">Podemos usar servicios analíticos que usan cookies, JavaScript y tecnologías similares para ayudarnos a analizar cómo usan los usuarios el Servicio. La información generada por estos servicios sobre su uso del Servicio (incluida su dirección IP o una versión truncada de su dirección IP) es transmitida y almacenada por los proveedores de servicios analíticos en sus servidores. Esos proveedores de servicios utilizarán esta información con el fin de evaluar su uso y el de otros usuarios del servicio, recopilando informes sobre la actividad del sitio web y brindando otros servicios relacionados con la actividad del sitio web y el uso de Internet.</p>
+                                <p class="evolution-text margin-bottom-prom">Podemos recopilar información sobre su computadora, incluida su dirección IP, sistema operativo, tipo de navegador y referencia http o https, para la administración del sistema y para crear informes. Estos son datos estadísticos sobre las acciones y patrones de navegación de nuestros usuarios, y no identifican a ninguna persona. Por ejemplo, utilizamos cookies en nuestro sitio para Google Analytics (el "Servicio de análisis").</p>
+                                <p class="evolution-text margin-bottom-prom">El servicio Analytics es una herramienta de análisis basada en la web que ayuda a los propietarios de sitios web a comprender cómo los visitantes interactúan con su sitio web. Los clientes del Servicio de análisis pueden ver una variedad de informes sobre cómo los visitantes interactúan con su sitio web para que puedan mejorarlo. Al igual que muchos servicios, el Servicio de Analytics utiliza cookies de origen para rastrear las interacciones de los visitantes, como en nuestro caso, donde están acostumbrados a recopilar información sobre cómo los visitantes usan nuestro sitio. Luego usamos la información para compilar informes y para ayudarnos a mejorar nuestro sitio. Las cookies contienen información que se transfiere al disco duro de su computadora. Estas cookies se utilizan para almacenar información, como la hora en que se realizó la visita actual, si el visitante ha estado en el sitio antes y qué sitio ha referido al visitante a la página web. </p>
+                                <p class="evolution-text margin-bottom-prom">El servicio de Analytics recopila información de forma anónima. Informan las tendencias del sitio web sin identificar a los visitantes individuales. Puede inhabilitar el Servicio de Analytics sin afectar la forma en que visita nuestro sitio. Para obtener más información sobre cómo dejar de ser rastreado por Google Analytics en todos los sitios web que usa, visite <a href="https://tools.google.com/dlpage/gaoptout" class="blue-word" target="_blank">https://tools.google.com/dlpage/gaoptout</a>. También podemos usar el seguimiento de conversiones de Google y / o servicios similares para ayudarnos a comprender su y el uso de otros usuarios del Servicio. Información recopilada automáticamente: cuando accede al Servicio o abre uno de nuestros correos electrónicos HTML, podemos registrar automáticamente cierta información de su sistema mediante el uso de cookies y otros tipos de tecnologías.</p>
+                                <p class="evolution-text margin-bottom-prom">Esta información "recopilada automáticamente" puede incluir una dirección de Protocolo de Internet ("Dirección IP"), una identificación de usuario única, tipo de dispositivo, identificadores de dispositivo, tipos de navegador e idioma, páginas de referencia y de salida, tipo de plataforma, versión de software instalado, tipo de sistema, el contenido y las páginas a las que accede en el Servicio, la cantidad de clics, la cantidad de tiempo que pasa en las páginas, las fechas y horas en que visita el Servicio y otra información similar. Dependiendo de la ley de su país de residencia, su dirección de IP puede considerarse legalmente como información de identificación personal.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Seguridad:</p>
+                                <p class="evolution-text margin-bottom-prom">La seguridad de su información de identificación personal es muy importante para nosotros. Cuando recopilamos su información de identificación personal en línea, hacemos todos los esfuerzos razonables para protegerla del acceso no autorizado. Sin embargo, debido a la naturaleza abierta inherente de Internet y el almacenamiento en la nube, no podemos garantizar que su información de identificación personal esté completamente libre de acceso no autorizado por parte de terceros, como los piratas informáticos, y su uso de nuestro servicio demuestra su asunción de este riesgo.</p>
+                                <p class="evolution-text margin-bottom-prom">Nuestros proveedores de servicios de terceros han implementado procedimientos físicos, electrónicos y administrativos razonables para salvaguardar la información que recopilamos. Solo aquellos empleados que necesitan acceso a su información para realizar sus tareas están autorizados a acceder a su información de identificación personal. Para obtener más información sobre cómo proteger su privacidad, visite <a href="https://www.ftc.gov/site-information/privacy-policy" class="blue-word" target="_blank">https://www.ftc.gov/site-information/privacy-policy</a>.</p>
+                                <p class="evolution-text margin-bottom-prom">Sus divulgaciones en blogs y otras redes sociales: debe conocer la información de identificación personal que voluntariamente incluye y transmite en línea en el Servicio o en un sitio de acceso público. blog, sala de chat, plataforma de redes sociales o de otra manera en línea, o que usted comparte en un foro abierto como un panel o encuesta en persona, pueden ser vistos y utilizados por otros sin ninguna restricción.</p>
+                                <p class="evolution-text margin-bottom-prom">No podemos controlar dichos usos de su información de identificación personal, y al utilizar el Servicio o cualquier otro servicio en línea, usted asume el riesgo de que la información de identificación personal proporcionada por usted pueda ser vista y utilizada por terceros para cualquier cantidad de propósitos. inicia sesión en los sitios web y / o servicio a través de su cuenta de Facebook, se conecta a un servicio externo como Facebook o Twitter a través de un ícono o enlace en el servicio o vincula su cuenta con un servicio de terceros, podemos compartir los contenidos de su publicación y la información asociada (como su nombre de usuario, el hecho de que su conexión se originó en el Servicio, y otra información relevante de uso y diagnóstico) con dicho tercero.</p>
+                                <p class="evolution-text margin-bottom-prom">Con su consentimiento por única vez, también podemos enviarle información sobre el contenido que mira y sus actividades en el Servicio a dichos terceros. Una vez que se comparte dicha información, el uso de su información estará sujeto a la política de privacidad de ese servicio y esta Política de privacidad no se aplicará.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Protección para niños:</p>
+                                <p class="evolution-text margin-bottom-prom">Generalmente no recopilamos información de identificación personal de niños menores de 13 años. En el futuro, planeamos recopilar información personal identificable de niños menores de 13 años, dicha recopilación y uso, en la medida en que corresponda, se realizará, según sea necesario, de conformidad con la Ley de Protección de Privacidad en Línea para Niños ("COPPA") y el consentimiento apropiado del padre o tutor del niño se buscará cuando así lo requiera COPPA.</p>
+                                <p class="evolution-text margin-bottom-prom">Cuando nos damos cuenta de que se ha recopilado información de identificación personal de un niño menor de 13 años sin el consentimiento de dichos padres o tutores, haremos todos los esfuerzos razonables para eliminar dicha información de nuestra base de datos.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Otros servicios:</p>
+                                <p class="evolution-text margin-bottom-prom">Para su comodidad, podemos proporcionarle enlaces y menciones a Servicios de terceros desde nuestro Servicio. No somos responsables de las prácticas de privacidad o el contenido de estos sitios de terceros. Cuando se aleja de nuestro Servicio, lo hace bajo su propio riesgo. Cambios a esta Política de Privacidad: Nos reservamos el derecho, a nuestra discreción, de cambiar, modificar, agregar o eliminar partes de esta Política de Privacidad en cualquier momento. Sin embargo, si en algún momento en el futuro planeamos utilizar información de identificación personal de una manera que difiera materialmente de esta Política de privacidad, incluida la divulgación de dicha información con más terceros, publicaremos dichos cambios aquí y le brindaremos la oportunidad de optar por -fuera de tales usos diferentes. </p>
+                                <p class="evolution-text margin-bottom-prom">El uso continuado del Servicio y nuestros servicios después de la publicación de cualquier cambio en esta Política de Privacidad significa que usted acepta dichos cambios.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Proceso de Salida: </p>
+                                <p class="evolution-text margin-bottom-prom">Todas las solicitudes de cancelación pueden hacerse haciendo clic en el enlace "cancelar suscripción" en la parte inferior del correo electrónico relevante. Procesaremos su solicitud dentro de un tiempo razonable después de la recepción. Sin embargo, no somos responsables y, en algunos casos, no somos capaces de eliminar su información de identificación personal de las listas de terceros a los que se haya proporcionado previamente su información de conformidad con esta Política de privacidad o su consentimiento.</p>
+                                <p class="evolution-text margin-bottom-prom">Debe ponerse en contacto con dichos terceros directamente. Si desea actualizar o corregir cualquier información de identificación personal que nos haya proporcionado, envíenos un correo electrónico utilizando los métodos de contacto en este sitio web y una vez que confirmemos su información, actualizaremos dicha información dentro de un período de tiempo razonable.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Comunicaciones con nosotros:</p>
+                                <p class="evolution-text margin-bottom-prom">Al proporcionarnos su información de contacto (incluidos, entre otros, su dirección de correo electrónico, su dirección física y su número de teléfono) (colectivamente, los "Canales"), acepta expresamente recibir nuestras comunicaciones.</p>
+                                <p class="evolution-text margin-bottom-prom">Podemos usar los Canales para comunicarnos con usted, enviar información que usted haya solicitado o para enviarle información sobre otros productos o servicios desarrollados o proporcionados por nosotros o nuestros socios comerciales, siempre que no proporcionemos su información de contacto a otra parte a promocionar sus productos o servicios directamente a usted sin su consentimiento o según lo establecido en esta Política de Privacidad. </p>
+                                <p class="evolution-text margin-bottom-prom">Al utilizar el Servicio, usted acepta expresamente recibir nuestras comunicaciones dentro del producto (incluidas, entre otras, las notificaciones automáticas en las Aplicaciones conectadas). al proporcionarnos su número de teléfono, acepta expresamente recibir nuestras llamadas telefónicas y / o mensajes de texto. </p>
+                                <p class="evolution-text margin-bottom-prom">No le proporcionaremos su número de teléfono a otra persona para que promocione sus productos o servicios directamente a usted sin su consentimiento o según se establece en esta Política de privacidad. Cualquier llamada telefónica y / o mensaje de texto entregado a su teléfono o dispositivo puede ocasionar que incurra en datos adicionales, mensajes de texto u otros cargos de su proveedor de servicios inalámbricos.</p>
+                                <p class="evolution-text margin-bottom-prom"><span class="evolution-text-bold">SE PUEDEN APLICAR TARIFAS POR MENSAJES Y DATOS. </span>Usted es el único responsable de los gastos incurridos por el proveedor como resultado de nuestras comunicaciones telefónicas y / o de texto. Cualquier comunicación o material que nos transmita por correo electrónico o de otra forma, incluidos datos, preguntas, comentarios, sugerencias o similares, y será tratado como no confidencial y no patentado.</p>
+                                <p class="evolution-text margin-bottom-prom">Excepto en la medida expresamente cubierta por esta Política de Privacidad, cualquier cosa que usted transmita o publique puede ser utilizada por nosotros para cualquier propósito, incluyendo, pero no limitado a, la reproducción, divulgación, transmisión, publicación, transmisión y publicación.</p>
+                                <p class="evolution-text margin-bottom-prom">Además, acepta expresamente que somos libres de utilizar cualquier idea, concepto, know-how o técnica contenida en cualquier comunicación que nos envíe, así como cualquier información desarrollada utilizando el contenido de dicha comunicación, sin compensación y para cualquier propósito en absoluto, incluidos, entre otros, el desarrollo, la fabricación y la comercialización de productos y servicios utilizando dicha información. </p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Sin derechos de terceros:</p>
+                                <p class="evolution-text margin-bottom-prom">Esta Política de privacidad no crea derechos exigibles por terceros, ni exige la divulgación de información personal relacionada con los usuarios del Servicio. </p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Términos de uso del Sitio: </p>
+                                <p class="evolution-text margin-bottom-prom">El uso de este Servicio se rige por los Términos de Uso que se encuentran en la sección de Términos de Uso de esta página (los "Términos"). Esta Política de privacidad está incorporada en los Términos. Su uso o acceso al Servicio constituye su aceptación de estar sujeto a estas disposiciones.<span class="evolution-text-bold"> SI NO ACEPTA LOS TÉRMINOS Y ESTA POLÍTICA DE PRIVACIDAD, NO PUEDE ACCEDER O UTILIZAR DE CUALQUIER OTRA FORMA EL SERVICIO.</span></p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Servidores:</p>
+                                <p class="evolution-text margin-bottom-prom">Nuestros servidores se mantienen en los Estados Unidos, Europa y en todo el mundo. Al utilizar el Servicio, usted nos brinda su consentimiento libre y específico para exportar su información de identificación personal a los países en los que residen nuestros servidores, tal como se especifica en esta Política de Privacidad. Usted comprende que los datos almacenados en los Estados Unidos y otros países pueden estar sujetos a solicitudes legales por parte de los tribunales o las autoridades policiales de los Estados Unidos y otros países.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Ley Gubernamental:</p>
+                                <p class="evolution-text margin-bottom-prom">Esta Política de Privacidad y nuestras obligaciones legales están sujetas a las leyes de la República Bolivariana de Venezuela, independientemente de su ubicación. Por la presente, acepta la jurisdicción exclusiva y el lugar en los tribunales ubicados en Venezuela en todas las disputas que surjan de o se relacionen con los Servicios.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Contacto:</p>
+                                <p class="evolution-text margin-bottom-prom">Para preguntas o inquietudes relacionadas con la privacidad, podemos ser contactados mediante métodos de contacto en este sitio web.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Acuerdo de términos de servicio:</p>
+                                <p class="evolution-text margin-bottom-prom">Al utilizar el sitio web ubicado en este dominio y los sitios vinculados dentro de su red, los sitios web móviles relacionados y cualquier aplicación móvil (colectivamente, los "Sitios web"), usted acepta estar sujeto a estos Términos del Servicio (estos "Términos del Servicio" "O" Acuerdo "), ya sea que se registre o no como miembro (" Miembro "). Si desea convertirse en miembro y / o hacer uso del servicio (el "Servicio"), lea este Acuerdo. Si se opone a algo en este Acuerdo o en la Política de privacidad, no use el Servicio. Este Acuerdo está sujeto a cambios en cualquier momento, a partir de su publicación en el sitio web correspondiente. El uso continuado de los sitios web y del Servicio después de la publicación de los términos revisados de cualquier sección del Acuerdo constituirá su aceptación expresa y vinculante del contrato revisado y su consentimiento para el mismo. <span class="evolution-text-bold">POR FAVOR, LEA ESTE ACUERDO CUIDADOSAMENTE YA QUE CONTIENE INFORMACIÓN IMPORTANTE RESPECTO.</span></p>
+                                <p class="evolution-text margin-bottom-prom"><span class="evolution-text-bold">SUS DERECHOS LEGALES, RECURSOS Y OBLIGACIONES, INCLUIDAS LAS DIVERSAS LIMITACIONES Y EXCLUSIONES, Y UNA CLÁUSULA DE RESOLUCIÓN DE CONFLICTOS QUE RIGE CÓMO SE RESOLVERÁN LAS DISPUTAS. </span>Acuerdo Electrónico. Este Acuerdo es un contrato electrónico que establece los términos legalmente vinculantes de su uso de los Sitios web y el Servicio. Este Acuerdo puede ser modificado de vez en cuando, dichas modificaciones entrarán en vigencia una vez publicadas en los Sitios web. Al acceder y / o utilizar los sitios web o convertirse en miembro, usted acepta este Acuerdo y acepta los términos, condiciones y avisos que figuran o se mencionan en este documento.</p>
+                                <ol>
+                                    <li class="evolution-text">
+                                        <p>Acceso y retención para acceder y conservar este Acuerdo electrónico, debe tener acceso a Internet, ya sea directamente o a través de dispositivos que acceden a contenido basado en la web y pague cualquier tarifa de servicio asociada con dicho acceso. Además, debe usar todo el equipo necesario para realizar dicha conexión a la World Wide Web, incluyendo una computadora y un módem u otro dispositivo de acceso.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Uso comercial del servicio. Si está utilizando el Servicio y / o accediendo a los Sitios web en nombre de una empresa, entidad u organización (colectivamente, una "Entidad Suscriptora"), usted declara y garantiza que: a. Usted es un representante autorizado de la Entidad Suscriptora y tiene la autoridad para vincular a la Entidad Suscriptora a estos Términos de Servicio; b. Usted ha leído y entendido estos Términos de Servicio; y c. Usted acepta estos Términos de Servicio en nombre de la Entidad Suscriptora. Los usos ilegales y / o no autorizados de los Sitios web incluyen, entre otros, la exploración o descarga de contenido ilegal, la recopilación de nombres de usuario y / o direcciones de correo electrónico de miembros por medios electrónicos u otros con el propósito de enviar correos electrónicos no solicitados, marcos no autorizados o enlaces a los Sitios web, compartir o divulgar su nombre de usuario o contraseña a un tercero o permitir que un tercero acceda a su cuenta, intentar suplantar a otro usuario o persona, uso del Sitios web de manera fraudulenta o engañosa, cualquier uso automatizado del sistema, como raspado de los sitios web, scripts automatizados, arañas, robots, rastreadores, herramientas de minería de datos o similares, que interfieren, perturban o crean una carga indebida en los sitios web, o las redes o servicios conectados a los sitios web, y el uso de los sitios web de una manera inconsistente con cualquiera y todas las leyes y regulaciones aplicables. </p>
+                                        <p>El uso ilegal y / o no autorizado de los sitios web puede ser investigado, y se pueden tomar las medidas legales correspondientes, incluidas, entre otras, las reparaciones civiles, penales y cautelares. El uso de los Sitios web y el Servicio se realiza con nuestro permiso, que puede revocarse en cualquier momento, por cualquier motivo, a nuestra entera discreción.</p>
+                                        <p>Usted es responsable de mantener la confidencialidad del nombre de usuario y la contraseña que designe durante el proceso de registro, y usted es totalmente responsable de todas las actividades que ocurran bajo su nombre de usuario y contraseña. Usted acepta (a) notificarnos inmediatamente sobre cualquier uso no autorizado de su nombre de usuario o contraseña o cualquier otro incumplimiento de seguridad, y (b) asegurarse de salir de su cuenta al final de cada sesión. no seremos responsables de ninguna pérdida o daño que surja de su incumplimiento de esta disposición. Debe tener especial cuidado al acceder a su cuenta desde una computadora pública o compartida para que otros no puedan ver o registrar su contraseña u otra información personal. Si comparte su computadora con otras personas, tal vez desee deshabilitar su función de inicio de sesión automático si la tiene vinculada a su cuenta con nosotros.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Uso de los sitios web.</p>
+                                        <ol type="a">
+                                            <li class="evolution-text">
+                                                <p>No puede navegar o descargar contenido ilegal.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe copiar ni capturar, ni intentar copiar o capturar ningún contenido de los sitios web (el "Contenido") ni de ninguna parte de los sitios web, a menos que cuente con el permiso expreso de nosotros.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe copiar, republicar, adaptar, poner a disposición o comunicar al público, exhibir, realizar, transferir, compartir, distribuir o utilizar o explotar cualquier Contenido en o desde la Plataforma, excepto (i) donde dicho Contenido es creado por usted (tal contenido, "Su contenido"), o (ii) según lo permitido bajo estos Términos de Servicio, y dentro de los parámetros establecidos por la persona o entidad que subió el Contenido (el "Cargador") (por ejemplo, bajo los términos de licencias de Creative Commons seleccionadas por el cargador).</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe usar ningún Contenido (que no sea su contenido) de ninguna manera diseñada para crear un servicio de contenido por separado o que replique cualquier parte de la oferta de los sitios web.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe utilizar raspado o técnicas similares para agregar, reutilizar, republicar o hacer uso de cualquier Contenido.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe emplear el uso de bots, botnets, scripts, aplicaciones, complementos, extensiones u otros medios automatizados para registrar cuentas, iniciar sesión, publicar comentarios, o de otra manera para actuar en su nombre, particularmente cuando dicha actividad ocurra de manera múltiple o moda repetitiva. No debe ofrecer ni promocionar la disponibilidad de tales técnicas o servicios a otros usuarios de los sitios web.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe alterar ni eliminar, ni intentar alterar ni eliminar, ninguna marca comercial, derecho de autor u otros avisos de propiedad o legales contenidos o que aparezcan en los sitios web o en cualquier contenido que aparezca en los sitios web (que no sea su contenido).</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe, y no debe permitir que terceros intenten copiar o adaptar el código objeto de los sitios web, o realizar ingeniería inversa, ensamblar inversamente, descompilar, modificar o intentar descubrir cualquier código fuente o objeto de cualquier parte de los sitios web, o eludir o intentar eludir o copiar cualquier mecanismo de protección de copia o acceder a cualquier información de gestión de derechos perteneciente al contenido que no sea su contenido.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe usar los sitios web para cargar, publicar, almacenar, transmitir, mostrar, copiar, distribuir, promocionar, poner a disposición o comunicar al público:</p>
+                                                <ul>
+                                                    <li class="evolution-text">
+                                                        <p>Cualquier contenido que sea ofensivo, abusivo, calumnioso, difamatorio, obsceno, racista, sexual explícita, étnica o culturalmente ofensiva, indecente, que promueve la violencia, el terrorismo o actos ilegales, incita al odio por motivos de raza, sexo, religión u orientación sexual, o es objetable a nuestra discreción.</p>
+                                                    </li>
+                                                    <li class="evolution-text">
+                                                        <p>Cualquier información, contenido u otro material que viola, plagia, malversa o infringe los derechos de terceros, incluidos, entre otros, derechos de autor, derechos de marca, derechos de privacidad o publicidad, información confidencial o cualquier otro derecho.</p>
+                                                    </li>
+                                                    <li class="evolution-text">
+                                                        <p>Cualquier contenido que viole, infrinja o sea contrario a cualquier ley, regla, orden judicial u otro modo sea ilegal o ilegal a nuestra única y razonable opinión.</p>
+                                                    </li>
+                                                    <li class="evolution-text">
+                                                        <p>Cualquier material de cualquier tipo que contenga virus, caballo de Troya o spyware, adware, malware, bot, bomba de tiempo, gusano u otro componente nocivo o malicioso, que sobrecargará, perjudicará o perturbará los sitios web o servidores o redes que forman parte o están conectados a los sitios web, o que sí o podría restringir o inhibir el uso y disfrute de los sitios web por parte de cualquier otro usuario.</p>
+                                                    </li>
+                                                    <li class="evolution-text">
+                                                        <p>Cualquier publicidad no solicitada o no autorizada, mensajes promocionales, correo no deseado o cualquier otra forma de solicitud.</p>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe cometer ni comprometerse, ni alentar, inducir, solicitar ni promover ninguna conducta que constituiría una ofensa criminal, daría lugar a responsabilidad civil o infringiría de otro modo alguna ley o regla.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe alquilar, vender o arrendar el acceso a los sitios web, ni a ningún contenido de los sitios web, aunque esto no le impedirá incluir enlaces desde su contenido a cualquier tienda legítima de descargas en línea desde donde pueda comprar cualquier artículo de su contenido. No debe suplantar deliberadamente a ninguna persona o entidad ni tergiversar su afiliación con una persona o entidad, por ejemplo, registrando una cuenta a nombre de otra persona o empresa, o enviando mensajes o haciendo comentarios utilizando el nombre de otra persona.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe acechar, explotar, amenazar, abusar o acosar a otro usuario o empleado nuestro. Si consideramos que su comportamiento hacia cualquiera de nuestros empleados es en cualquier momento amenazante u ofensivo, nos reservamos el derecho de rescindir inmediatamente su membresía y no tendrá derecho a ningún reembolso de las tarifas de suscripción no utilizadas. No debe vender ni transferir, ni ofrecer vender o transferir, ninguna cuenta que tenga con nosotros a ningún tercero sin la aprobación previa por escrito de nosotros.o. No debe recopilar o intentar recopilar datos personales, o cualquier otro tipo de información sobre otros usuarios, incluidos, entre otros, a través de spraying o cualquier otra forma de robo.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>No debe violar, eludir o intentar violar o eludir las medidas de seguridad de datos empleadas por nosotros o cualquier Uploader; acceder o intentar acceder a datos o materiales que no están destinados para su uso; inicie sesión o intente iniciar sesión en un servidor o cuenta a la que no tiene autorización de acceso; intente escanear o probar la vulnerabilidad de los servidores, sistema o red o intente violar nuestros procedimientos de seguridad o autenticación de datos; intentar interferir con los sitios web o los Servicios por cualquier medio, incluido, entre otros, piratear los servidores o sistemas, enviar un virus, sobrecargar, bombardear correos o colisionar. Sin limitación a cualquier otro derecho o recurso bajo estos Términos de Servicio, nos reservamos el derecho de investigar cualquier situación que parezca involucrar a cualquiera de los anteriores, y podemos informar tales asuntos a, y cooperar con, las autoridades policiales apropiadas en la persecución cualquier usuario que haya participado en tales infracciones. Acepta cumplir con las condiciones anteriores y reconoce y acepta que tenemos el derecho, a su exclusivo criterio, de finalizar su cuenta o tomar cualquier otra medida que consideremos adecuada si infringe alguna de las condiciones anteriores o cualquiera de los otros términos de estos Términos de servicio. Esto puede incluir llevar acciones judiciales y / o informar a los usuarios infractores a las autoridades pertinentes.</p>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Representaciones y garantías. Por la presente, nos manifiesta y nos garantiza lo siguiente: </p>
+                                        <ol type="a">
+                                            <li class="evolution-text">
+                                                <p>Tu contenido, y todas y cada una de sus partes, es un trabajo original realizado por usted, o ha obtenido todos los derechos, licencias, consentimientos y permisos necesarios para su uso, y (si corresponde) autorizarnos a usar, su contenido de conformidad con estos Términos del servicio, incluido, entre otros, el derecho de cargar, reproducir, almacenar, transmitir, distribuir, compartir, exhibir públicamente, realizar públicamente, poner a disposición y comunicar al público su contenido y todas y cada una de sus partes, en a través de los sitios web, todos y cada uno de los servicios y los servicios de terceros.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>Su contenido y la disponibilidad del mismo en la Plataforma no infringen ni violarán los derechos de ningún tercero, incluidos, entre otros, los derechos de propiedad intelectual, los derechos de los artistas intérpretes o ejecutantes, los derechos de privacidad o publicidad o los derechos de información confidencial.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>Usted ha obtenido todos los consentimientos, permisos y / o liberaciones necesarias de todas las personas que aparecen en su contenido para incluir su nombre, voz, rendimiento o semejanza en su contenido y para publicar el mismo en los sitios web y en cualquier tercero.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>Su contenido, incluidos los comentarios que pueda publicar en los sitios web, no es y no será ilegal, ofensivo, abusivo, calumnioso, difamatorio, obsceno, racista, sexualmente explícito, étnicamente o culturalmente ofensivo, indecente, no promoverá la violencia, el terrorismo, o actos ilegales, o incitación al odio por motivos de raza, sexo, religión u orientación sexual.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>Su contenido no genera ni creará responsabilidad alguna por parte nuestra, nuestras subsidiarias, afiliadas, sucesoras y personas designadas, y sus respectivos empleados, agentes, directores, funcionarios y / o accionistas. Nos reservamos el derecho de eliminar su contenido. suspender o terminar su acceso a la Plataforma y / o buscar todos los recursos legales si creemos que cualquiera de sus contenidos infringe cualquiera de las declaraciones o garantías anteriores, o infringe los derechos de otra persona o viola alguna ley, norma o reglamento.</p>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Término. Este Acuerdo permanecerá en plena vigencia mientras usted use los Sitios web y / o el Servicio. Puede cancelar su membresía y / o suscripción en cualquier momento poniéndose en contacto con nosotros mediante los métodos de contacto de este sitio web. Si renuncia o cancela su membresía y / o nos suscribe, para ayudarnos a analizar y mejorar el Servicio, se le puede pedir que proporcione una razón para su renuncia / cancelación. Podemos cancelar su membresía y / o suscripción por cualquier motivo mediante el envío de una notificación a la dirección de correo electrónico que proporcione en su solicitud de membresía, o cualquier otra dirección de correo electrónico que pueda proporcionarnos posteriormente. Si cancelamos su membresía en el Servicio porque usted ha incumplido este Acuerdo, no tendrá derecho a ningún reembolso de las tarifas de suscripción no utilizadas. Todas las decisiones relativas a la cancelación de cuentas se realizarán a nuestra exclusiva discreción. No estamos obligados a proporcionarle un aviso antes de cancelar su membresía o suscripción. No se nos exige ni se nos puede prohibir divulgar una razón para la cancelación de su cuenta. Incluso después de que se cancele su membresía o suscripción, este Acuerdo permanecerá vigente. Se considerará que todos los términos que por su naturaleza puedan sobrevivir a la terminación de este Acuerdo seguirán vigentes después de dicha terminación. </p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Modificaciones al servicio. Nos reservamos el derecho en cualquier momento de modificar o suspender, temporal o permanentemente, el Servicio (o cualquier parte del mismo) con o sin previo aviso. Usted acepta que no seremos responsables ante usted ni ante ningún tercero por ninguna modificación, suspensión o interrupción del Servicio.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Bloqueo de direcciones IP. A fin de proteger la integridad de los Servicios, nos reservamos el derecho, en cualquier momento, a su exclusivo criterio, de impedir que los Miembros de ciertas direcciones IP accedan a los Sitios web.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Contenido.</p>
+                                        <ol type="a">
+                                            <li class="evolution-text">
+                                                <p>Derechos de propiedad. Conservamos todos los derechos de propiedad en los sitios web y el Servicio. Los sitios web contienen material con derechos de autor, marcas comerciales y otra información de propiedad nuestra y de nuestros licenciantes. Excepto cuando le hayamos dado permiso expreso por escrito, no puede copiar, modificar, publicar, transmitir, distribuir, ejecutar, mostrar o vender dicha información de propiedad. Todo el contenido en nuestros servidores es propiedad. Excepto donde se especifique lo contrario en este Acuerdo, todo el Contenido es material protegido por derechos de autor y solo para uso de nuestros Miembros. La distribución del contenido a otros está estrictamente prohibida. Usted acepta que nos veríamos perjudicados irreparablemente por cualquier violación o amenaza de violación de esta sección y que, por lo tanto, tendremos derecho a una orden judicial que prohíbe cualquier violación o amenaza de violación de esta sección, sin necesidad de pagar una fianza, además de cualquier otra derecho o recurso que pueda tener. </p>
+                                                <p>Podemos proporcionar enlaces a sitios web de terceros, y parte del contenido que aparece puede ser suministrado por terceros. No tenemos responsabilidad por estos sitios web de terceros ni por su contenido, que está sujeto a o y se rige por los Términos de servicio y / o las políticas de privacidad, en su caso, de los proveedores de contenido de terceros aplicables.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>Propiedad de su contenido; Licencias Usted acepta que cualquier contenido que suba a los Sitios web y / o al Servicio ("Su contenido") pasará a ser de nuestra propiedad. Esto no tendrá ningún efecto en las Secciones relacionadas con la Política de Copyright. Limitación de responsabilidad e indemnización por usted de este Acuerdo. Sin embargo, con respecto a su contenido, le otorgamos una licencia mundial, libre de regalías y no exclusiva para utilizar, distribuir, reproducir y mostrar públicamente dicho contenido, excepto en lo que respecta a la cuenta de uso comercial o con fines de lucro. Cualquier contenido que no sea su contenido es propiedad de la herramienta de subida relevante y está o puede estar sujeto a derechos de autor, marca registrada u otra propiedad intelectual o derechos de propiedad. Dicho Contenido no puede descargarse, reproducirse, distribuirse, transmitirse, recargarse, republicarse, mostrarse, venderse, licenciarse, ponerse a disposición o comunicarse al público de otra forma o explotarse para ningún fin excepto a través de las características de los Sitios web de vez en cuando y dentro de los parámetros establecidos por el Uploader en el Servicio o con el consentimiento expreso por escrito del Uploader. Cuando vuelve a publicar el Contenido de otro usuario o incluye el Contenido de otro usuario en un conjunto, no adquiere ningún derecho de propiedad sobre ese Contenido. Sujeto a los derechos expresamente otorgados en esta sección, todos los derechos en el Contenido están reservados para el Cargador correspondiente.</p>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Restricciones en el uso de materiales. Usted reconoce que nuestro contenido contiene imágenes, texto y otro contenido (colectivamente, "Propiedad intelectual") que están protegidos por derechos de autor, patentes, marcas comerciales, secretos comerciales y / u otros derechos de propiedad, y que estos derechos son válidos y están protegidos en todos formas, medios y tecnologías existentes ahora o en el futuro desarrollado. Toda propiedad intelectual está protegida por las leyes de derechos de autor del Reino Unido (y, si corresponde, leyes extranjeras similares), y poseemos un derecho de autor sobre la selección, coordinación, arreglo y mejora de dicha propiedad intelectual. Todas las marcas comerciales que aparecen en este sitio web son marcas comerciales de sus respectivos propietarios. No puede modificar, publicar, transmitir, distribuir, realizar, participar en la transferencia o venta, crear trabajos derivados de, o de ninguna manera explotar, cualquiera de la Propiedad Intelectual, en todo o en parte. Cuando la Propiedad intelectual se descarga a su computadora, no obtiene ningún interés de propiedad en dicha Propiedad intelectual. La modificación de la Propiedad intelectual o el uso de la Propiedad intelectual para cualquier otro propósito, incluido, entre otros, el uso de cualquier Propiedad intelectual en forma impresa o en cualquier otro sitio web o entorno informático en red está estrictamente prohibido a menos que reciba nuestro consentimiento previo por escrito.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Política de derechos de autor. Prohibimos el envío o publicación de cualquier información que infrinja o viole los derechos de autor u otros derechos de propiedad intelectual (incluidos los derechos de privacidad y publicidad) de cualquier persona o entidad.</p>
+                                        <p>De conformidad con el Título 17 del Código de los Estados Unidos, Sección 512 (c ) (2) o por cualquier otro reclamo de infracción de derechos de autor, usted acepta que las notificaciones de infracción de derechos de autor se envíen a través de los métodos de contacto de este sitio web.</p>
+                                        <p>Si considera que su derecho de propiedad intelectual (o tal derecho, usted es responsable de hacer cumplir) se infringe por cualquier contenido en el Sitio, contáctenos, dando una declaración por escrito que contenga:</p>
+                                        <ol type="a">
+                                            <li class="evolution-text">
+                                                <p>Identificación de la obra protegida por derechos de autor y / o derecho de propiedad intelectual que supuestamente se ha infringido.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>Identificación del material presuntamente infractor en el Sitio que se solicita que se elimine.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>Su nombre, dirección y número de teléfono diurno, y una dirección de correo electrónico si está disponible.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>Una declaración de que usted cree de buena fe que el uso del trabajo con derechos de autor y / o el ejercicio del derecho de propiedad intelectual no está autorizado por el propietario, su agente o la ley; e. una declaración de que la información en la notificación es precisa y, bajo pena de perjurio, que el signatario está autorizado a actuar en nombre del propietario del derecho que presuntamente se ha infringido; la firma del titular de los derechos de propiedad intelectual o de alguien autorizado en nombre del propietario para hacer valer la infracción del derecho.</p>
+                                                <p>Procesaremos cualquier notificación de presunta infracción que reciba y tomaremos las medidas adecuadas según las leyes de derecho de autor aplicables. La ley del Reino Unido establece sanciones significativas por la presentación falsa de dicha declaración. En circunstancias apropiadas, a las personas que reiteradamente presenten material infractor o ilegal se les prohibirá publicar otras presentaciones. Responsabilidad por el contenido. Por la presente, reconoce y acepta que nosotros (i) almacenamos Contenido y otra información en la dirección, solicitud y autorización de sus usuarios, (ii) actuamos simplemente como un conducto pasivo y / o host para la carga, almacenamiento y distribución de dicho Contenido, y (iii) no desempeña ningún papel activo y da no asistencia en la presentación o uso del Contenido. Usted es el único responsable de todo su contenido que cargue, publique o distribuya en, o a través de los sitios web, y en la medida en que lo permita la ley, excluimos toda responsabilidad con respecto a todo el contenido (incluido su contenido) y las actividades de sus usuarios con respecto a esto.</p>
+                                                <p>Usted reconoce y acepta que no podemos y no revisamos el Contenido creado o subido por sus usuarios, y ni nosotros ni sus subsidiarias, afiliados, sucesores, cesionarios, empleados, agentes, directores, funcionarios y accionistas tienen cualquier obligación, y no asume ni asume ningún deber, de supervisar los sitios web por contenido que sea inapropiado, que infrinja o pueda infringir los derechos de un tercero o que se haya subido incumpliendo estos Términos de servicio o la ley aplicable. Nosotros, y nuestras subsidiarias, afiliadas, sucesoras, cesionarias, empleados, agentes, directores, funcionarios y accionistas por la presente excluyen, en la máxima medida permitida por la ley, cualquier responsabilidad que pueda surgir de una Contenido subido a los Sitios web por los usuarios, incluyendo, entre otros, cualquier reclamo por infracción de derechos de propiedad intelectual, derechos de privacidad o publicidad, cualquier reclamo relacionado con la publicación de material difamatorio, pornográfico, obsceno u ofensivo, o cualquier reclamo en relación con la integridad, exactitud, vigencia o confiabilidad de cualquier información proporcionada por los usuarios de los sitios web. Al utilizar los sitios web, renuncia irrevocablemente al derecho de hacer valer cualquier reclamo con respecto a cualquiera de los anteriores en contra de nosotros o cualquiera de sus subsidiarias, afiliados, sucesores, cesionarios, empleados, agentes, directores, funcionarios o accionistas.</p>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Repita los infractores. Suspenderemos o cancelaremos su acceso a los sitios web si determinamos, a su exclusivo y razonable criterio, que ha incumplido reiteradamente estos Términos de servicio. Si recibimos una notificación válida de un tercero de acuerdo con nuestros procesos de elaboración de informes o la legislación aplicable. que cualquiera de sus contenidos infringe los derechos de autor u otros derechos de dicho tercero, o si creemos que su comportamiento es inapropiado y viola nuestros términos de servicio, le enviaremos una advertencia por escrito a tal efecto. Cualquier usuario que reciba más de dos de estas advertencias podrá cancelar su acceso a los sitios web de inmediato. También suspenderemos o cancelaremos su cuenta sin previo aviso si así lo ordena un tribunal, y / o en otras circunstancias apropiadas, como determinado por nosotros a nuestro exclusivo criterio. Tenga en cuenta que no ofrecemos reembolsos a los Miembros cuyas cuentas se cancelan como resultado de una infracción reiterada de estos Términos de Servicio.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Limitación de responsabilidad. En ningún caso seremos responsables de ningún daño, ya sea directo, indirecto, general, especial, compensatorio, consecuente y / o incidental, que surja de o se relacione con los Sitios web o Servicio, o el uso de los mismos. Nada de lo contenido en este sitio web o en comunicaciones escritas u orales de nosotros o nuestros empleados o agentes se interpretará como una promesa, compromiso o garantía, todos los cuales se rechazan explícitamente en este documento, en contra de las declaraciones y renuncias contenidas en este párrafo .El contenido y la funcionalidad en los sitios web y los servicios proporcionados por los empleados de los sitios web se ofrecen "tal cual" sin garantía de ningún tipo, ya sea expresa o implícita, incluidas, entre otras, las garantías implícitas de comerciabilidad, idoneidad para un fin determinado, título y no infracción. No ofrecemos ninguna garantía, expresa o implícita, con respecto a la propiedad, exactitud, integridad o adecuación del contenido de los sitios web o que la funcionalidad de los sitios web será ininterrumpida o estará libre de errores o virus o terceros. -party attack. Usted reconoce que su uso de los sitios web y el Servicio es bajo su propio riesgo.</p>
+                                        <p class="evolution-text-bold">BAJO NINGUNA CIRCUNSTANCIA, NOSOTROS, PROPIETARIOS, EMPLEADOS O AGENTES Y SUS RESPECTIVOS HEREDEROS, SUCESORES Y ASIGNA SERÁN RESPONSABLES DE NINGÚN DAÑO, INCLUIDOS LOS DAÑOS DIRECTOS, INCIDENTALES, PUNITIVOS, ESPECIALES, RESULTANTES O EJEMPLARES QUE RESULTEN DIRECTAMENTE O INDIRECTAMENTE DEL USO DE, O IMPOSIBILIDAD DE USO, LOS SITIOS WEB O EL SERVICIO O LA INFORMACIÓN CONTENIDA EN EL MISMO, INCLUIDOS, ENTRE OTROS, LOS VIRUS DESTINADOS A OBTENERSE DE LOS SITIOS WEB, AUN CUANDO HAYAMOS SIDO NOTIFICADOS DE LA POSIBILIDAD DE TALES DAÑOS O PÉRDIDAS Y SIN IMPORTAR LA TEORÍA DE RESPONSABILIDAD . EN EL GRADO MÁXIMO PERMITIDO POR LA LEY, USTED ACEPTA QUE EN NINGÚN CASO TENDREMOS NINGUNA RESPONSABILIDAD, CONTINGENTE O DE OTRO TIPO, POR DAÑOS INDIRECTOS, ESPECIALES, INCIDENTALES, CONSIGUIENTES O EJEMPLARES DE CUALQUIER MANERA DERIVADOS O RELACIONADOS CON EL ACUERDO, SITIOS WEB O EL SERVICIO, INCLUIDOS, ENTRE OTROS, LAS GANANCIAS PERDIDAS; DATOS PERDIDOS; PÉRDIDA DE BUENA VOLUNTAD; DERECHOS DE AUTOR, MARCA COMERCIAL U OTRA INFRACCIÓN DE PROPIEDAD INTELECTUAL; INTERRUPCIÓN DEL TRABAJO; FALLO O MAL FUNCIONAMIENTO DEL EQUIPO; ACTIVIDAD ILEGAL, INMORAL O FRAUDULENTA; LESIÓN PERSONAL; DAÑO A LA PROPIEDAD; O CUALQUIER OTRO DAM EDADES O PÉRDIDAS, INCLUSO SI HEMOS SIDO ADVERTIDOS DE LA POSIBILIDAD DE ELLOS, E INDEPENDIENTEMENTE DE LA TEORÍA JURÍDICA O EQUITATIVA (CONTRATO, AGRAVIO, ESTATUTO, INDEMNIZACIÓN O DE OTRO MODO) SOBRE LA CUAL SE BASA DICHA RESPONSABILIDAD.</p>
+                                        <p>En caso de que cualquiera de las limitaciones anteriores se consideran inaplicables, en la mayor medida permitida por la ley, usted acepta que toda la responsabilidad total de nosotros y el único recurso disponible para cualquier Miembro en cualquier caso de cualquier manera que surja de o esté relacionado con el Acuerdo, los Sitios web o el Servicio se estar limitado a daños monetarios que en conjunto no pueden exceder el mayor del equivalente a $ 500.00 o la suma de cualquier cantidad pagada por el Miembro o usuario a nosotros durante los seis meses previos a la notificación de la disputa para la cual se solicita el remedio.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Indemnidad para usted. Usted acepta indemnizar y mantener a nuestras filiales, afiliadas, funcionarios, agentes y otros socios y empleados, libres de cualquier pérdida, responsabilidad, reclamo o demanda, incluidos los honorarios razonables de abogados, que surjan de o estén relacionados con:</p>
+                                        <ol type="a">
+                                            <li class="evolution-text">
+                                                <p>Su uso del Servicio y / o sitios web en violación de este Acuerdo y / o que surjan de un incumplimiento de este Acuerdo, incluidas, entre otras, sus representaciones y garantías establecidas anteriormente.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>Cualquier reclamo de terceros de infracción de derechos de autor u otros derechos de propiedad intelectual o invasión de la privacidad que surja del alojamiento de su contenido en los sitios web, y / o su puesta a disposición de otros usuarios de los sitios web, y / o el uso real de su Contenido por otros usuarios de los Sitios web o servicios relacionados de acuerdo con estos Términos de Servicio y los parámetros establecidos por usted con respecto a la distribución y el intercambio de su Contenido.</p>
+                                            </li>
+                                            <li class="evolution-text">
+                                                <p>Cualquier actividad relacionada con su cuenta, ya sea por usted o por cualquier otra persona que acceda a su cuenta con o sin su consentimiento a menos que tal acto haya sido por nosotros. Costes legales. En el caso de que tengamos éxito, en todo o en parte, en cualquier acción o procedimiento relacionado o derivado de este Acuerdo, usted será responsable de los honorarios y costos de nuestros abogados. Permiso de los padres o tutores. Parte del contenido de los sitios web puede no ser apropiado para niños.<span class="evolution-text-bold"> A LOS NIÑOS MENORES DE 17 AÑOS NO SE PERMITE EL USO DE LOS SITIOS WEB A MENOS QUE ESTÉN PRESENTES UN PADRE O TUTOR SUPERVISANTE.</span></p>
+                                            </li>
+                                        </ol>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Intimidad. El uso de los Sitios web y / o el Servicio también se rige por nuestra sección de Política de privacidad, que se encuentra en esta página.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Jurisdicción y elección de la ley; Resolución de conflictos. Si existe una disputa que surja de los Sitios web y / o del Servicio, al utilizar los Sitios web y / o el Servicio, usted acepta expresamente que dicha disputa se regirá por las leyes de Inglaterra y Gales sin tener en cuenta su conflicto de leyes, disposiciones, y usted acepta expresamente la jurisdicción exclusiva y jurisdicción de un tribunal competente en Venezuela, para la resolución de cualquier disputa. La aceptación de los términos y condiciones de este Acuerdo constituye su consentimiento para ser demandado en dichos tribunales y aceptar el servicio del proceso fuera de Venezuela con la misma fuerza y efecto que si dicho servicio se hubiera realizado dentro de Venezuela. Por la presente, usted acepta aceptar el servicio del proceso para cualquier acción conforme al presente mediante acuse de recibo de correo certificado que se solicite, servicio que tendrá la misma fuerza y efecto que si el servicio hubiera sido efectuado por un servicio personal en la jurisdicción aplicable. Si alguna parte de estos términos es ilegal, nula o inaplicable, esa parte se considerará separable y no afectará la validez y aplicabilidad de las disposiciones restantes.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Disposición de Arbitraje / No Acción de clase. Excepto donde lo prohíba la ley, como condición para utilizar los Sitios web y / o el Servicio, usted acepta que todas y cada una de las disputas, reclamos y causas de acción (colectivamente, "Reclamo") que surjan o estén relacionadas con los Sitios web y / o el Servicio. , se resolverá individualmente, sin recurrir a ningún tipo de acción de clase, exclusivamente mediante arbitraje vinculante según las reglas de la autoridad de arbitraje pertinente para la liquidación total y final de dicha Demanda, y la sentencia sobre el laudo dictado en el arbitraje podrá presentarse en cualquier tribunal teniendo jurisdicción de eso. Tal arbitraje se llevará a cabo de acuerdo con las reglas de la autoridad de arbitraje, ante un solo árbitro (con conocimiento y experiencia de leyes de copyright si el reclamo es total o parcialmente por infracción de derechos de autor), seleccionado por acuerdo de ambas partes o por un mediador independiente (con conocimiento y experiencia de la ley de derechos de autor si la reclamación es total o parcialmente por infracción de derechos de autor) si las partes no pueden ponerse de acuerdo. Las partes dividirán el arbitraje y / o los costos del mediador. Un laudo dictado por el árbitro (s) puede ser ingresado y confirmado por los tribunales de Venezuela. Las partes acuerdan que cualquier acción posterior al arbitraje que pretenda hacer valer un laudo arbitral o acción que busque una reparación equitativa o cautelar se presentará exclusivamente en los tribunales de Venezuela.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Sin Terceros Beneficiarios. Usted acepta que, salvo que se indique expresamente lo contrario en este Acuerdo, no habrá terceros beneficiarios de este Acuerdo.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Disponibilidad fuera del Reino Unido. Si accede al contenido del recorrido desde fuera de Inglaterra y Gales, lo hace bajo su propio riesgo y es responsable del cumplimiento de las leyes de su jurisdicción. Si accede a los sitios web desde fuera de Inglaterra y Gales, acepta que cualquier información personal que proporcione se procesará en Inglaterra y Gales y otras ubicaciones geográficas, según lo seleccionemos a nuestro exclusivo criterio, y por la presente acepta la recopilación y el procesamiento de su información personal de manera consistente con este Acuerdo y la Política de Privacidad.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Acuerdo completo. Este Acuerdo contiene el acuerdo completo entre usted y nosotros con respecto al uso de los Sitios web y / o el Servicio.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Divisibilidad; Renuncia. Si cualquier disposición de este Acuerdo resulta ser inválida por cualquier tribunal con jurisdicción competente, la invalidez de tal disposición no afectará la validez de las disposiciones restantes de este Acuerdo, que permanecerán en pleno vigor y efecto. Ninguna renuncia a ningún término de este Acuerdo se considerará una renuncia adicional o continua de dicho término o cualquier otro término. Además, nuestra incapacidad para hacer cumplir cualquier término de este Acuerdo no se considerará como una renuncia a dicho término o afectará nuestra capacidad para hacer cumplir dicho término en cualquier momento en el futuro.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Encabezados. Los títulos de las secciones que figuran en este Acuerdo son solo para fines de referencia y no afectarán en modo alguno el significado o la interpretación de este Acuerdo. Comuníquese con nosotros si tiene alguna pregunta sobre este acuerdo. </p>
+                                    </li>
+                                </ol>
+                                <p class="evolution-text margin-bottom-prom">Fecha efectiva: Estas políticas, términos y condiciones fueron actualizados por última vez el 22 de febrero de 2018 <span class="evolution-text-bold">HE LEÍDO ESTE ACUERDO, LAS POLÍTICAS Y ACEPTO TODAS LAS DISPOSICIONES CONTENIDAS ANTERIORMENTE. </span></p>
+
+                                <p class="evolution-text margin-bottom-prom">© 2018 Coinet – www.coinet.network</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ico-legal-note">
+                <div class="container">
+                    <div class="row row-centered margin-top-prom margin-bottom-prom">
+                        <div class="col-xs-12">
+                            <span class="title-container">NOTA LEGAL ICO {<span class="blue-word">COINET</span>}</span>
+                        </div>
+                    </div>
+                    <div class="margin-bottom-prom">
+                        <div class="row equal center-vertical-text margin-bottom-min">
+                            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-xs-offset-0">
+                                <p class="evolution-text margin-bottom-min">Este documento está destinado únicamente a fines informativos y no es una oferta o una venta de acciones o valores de Grupo Coinet 134, C.A. o de cualquier otra empresa asociada. La posesión de los tokens Cot Coin no confiere al poseedor ningún derecho de propiedad sobre Grupo Coinet 134, C.A. ni ningún otro derecho. La opinión y el feedback de la comunidad serán tomadas en cuenta; sin embargo, la posesión de Cot Coins no da derecho a participar en la toma de decisiones o en cualquier dirección de desarrollo comercial relacionada con Grupo Coinet 134, C.A. Debido a que los tokens y la red están basados en el protocolo de la Stellar Platform, cualquier fallo del protocolo de la Stellar Platform puede tener un efecto adverso significativo en la red o en Cot Coin. Además, los avances en criptografía u otros avances tecnológicos, así como el desarrollo de la informática cuántica, pueden plantear riesgos para los tokens y la Web. El usuario es responsable de implementar medidas razonables para garantizar la seguridad de su cartera de Cot Coins u otro mecanismo de almacenamiento que utilice para recibir y almacenar los tokens que reciba, incluidas las claves privadas u otras credenciales necesarias para acceder a dichos fondos. Si sus claves privadas u otras credenciales de acceso se pierden, es posible que pierda el acceso a sus tokens. No nos hacemos responsables de dichas pérdidas.</p>
+
+                                <p class="evolution-text margin-bottom-prom">Grupo Coinet 134, C.A. ha consultado y ha sido asesorado por abogados sobre el marco legal relativo a las operaciones de Grupo Coinet 134, C.A. y su ICO en diferentes jurisdicciones. </p>
+
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Riesgos</p>
+                                <p class="evolution-text margin-bottom-prom">Cot Coin no representa de forma alguna una inversión formal o jurídicamente vinculante. Debido a circunstancias imprevistas, las metas descritas en este documento están sujetas a cambios. Si bien es nuestra intención alcanzar todas las metas descritas en este documento, todos los individuos y partes que adquieren Cot Coins lo hacen bajo su propio riesgo. </p>
+                                <p class="evolution-text margin-bottom-prom">La tecnología blockchain ha sido objeto de supervisión y escrutinio por diferentes organismos reguladores de todo el mundo. La red de Stellar, así como Cot Coin, podría verse afectada por una o más acciones regulatorias de gobiernos, incluyendo restricciones sobre el uso o posesión de tokens digitales como Cot Coin, lo que podría impedir o limitar la utilidad o compra de este token en el futuro.</p>
+                                <p class="evolution-text margin-bottom-prom">Los fondos de la ICO no están asegurados. En caso de pérdida o pérdida de valor no existe un asegurador público o privado que ofrezca recurso al comprador.</p>
+
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Limitación de responsabilidad</p>
+                                <p class="evolution-text margin-bottom-prom">El comprador expresamente reconoce y acepta que no tendrá derecho a entablar demanda ni a presentar ninguna acción legal directa o indirecta acción ante los tribunales, los órganos de arbitraje o cualquier otro organismo alternativo de solución de diferencias, ya sea en Venezuela o en el extranjero, contra la Compañía, sus directores, accionistas, empleados o subcontratistas en caso de incumplimiento, implementación o no implementación del proyecto, incluso en los casos en que su Cot Coin ha perdido parte o todo su valor.</p>
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">EN LA MEDIDA PERMITIDA POR LA LEY APLICABLE: EN NINGÚN CASO GRUPO COINET 134, C.A. SERÁ RESPONSABLE POR DAÑOS ACCIDENTALES, DIRECTOS O INDIRECTOS DE CUALQUIER TIPO INCLUYENDO, PERO NO LIMITADO A, LA PÉRDIDA DE INGRESOS, PÉRDIDA DE BENEFICIOS O GANANCIAS QUE PUEDAN SURGIR CON LA VENTA O EL USO DE TOKENS COT COIN U OTROS EMITIDOS POR EL GRUPO COINET 134, C.A., INDEPENDIENTEMENTE DE LA FORMA DE ACCIÓN.</p>
+                                <p class="evolution-text margin-bottom-prom">Además usted libera a Grupo Coinet 134, C.A. de toda responsabilidad, reclamos y/o daños (directos e indirectos) de cualquier tipo y naturaleza, conocidos y desconocidos, que surjan o estén relacionados con disputas entre usuarios, así como actos u omisiones de terceros.</p>
+
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Revisiones</p>
+                                <p class="evolution-text margin-bottom-prom">Estos términos constituyen un acuerdo entre el usuario y Coinet con respecto al intercambio del token Cot Coin. Puede que sea necesario actualizar estos términos y condiciones para cumplir con las leyes o regulaciones aplicables o corregir errores. Todos los cambios serán publicados en revisiones del presente documento y siempre será de cumplimiento y aplicación aquel con fecha más reciente (todos las revisiones de este documento serán marcadas como <span class="evolution-text-bold">“Revisión X.Y (Fecha)”</span> al pie de cada página. </p>
+
+                                <p class="evolution-text evolution-text-bold margin-bottom-prom">Know Your Consumers y Anti-Money Laundering Regulations</p>
+                                <p class="evolution-text margin-bottom-prom">En concordancia de la misión de Coinet de establecer seguridad y evitar el fraude, cumpliremos con las regulaciones de  la Unión Europea y EEUU en contra del lavado de dinero. Además, usaremos procedimientos KYC (Know Your Consumers) para proteger los intereses de nuestros clientes.</p>
+                                <p class="evolution-text">Tracking e identificación del equipo de desarrollo:</p>
+                                <ul class="margin-bottom-prom">
+                                    <li class="evolution-text">
+                                        <p>Background (incluye portafolio de proyectos, incluso dentro de la CFP).</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Rol y responsabilidades dentro del proyecto.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Status de participación dentro del proyecto (activo o no).</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Cantidad de Cot Coins que ha recibido.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Foto reciente de cada participante.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>El pasaporte es un requisito de registro en la CFP (no publicado).</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>El pasaporte es utilizado por el equipo de Coinet para hacer un background check de cada participante del equipo desarrollo.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Correo de contacto.</p>
+                                    </li>
+                                    <li class="evolution-text">
+                                        <p>Selfie con el pasaporte.</p>
+                                    </li>
+                                </ul>
+
+                                <p class="evolution-text margin-bottom-prom">© 2018 Coinet – www.coinet.network</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="footer">
+            <div class="container margin-top-prom margin-bottom-prom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <h2 class="margin-bottom-prom margin-top-prom"> Información de Contacto </h2>
+                        <div class="row"> 
+                            <div class="col-xs-1">
+                                <img class="contact-icons" src="../assets/images/footer/direccion-ico.png" alt="Dirección">
+                            </div>
+                            <div class="col-xs-10">
+                                <div>
+                                    <p class="margin-bottom-0"> Dirección </p>
+                                    <p class="margin-top-0"> Calle Pascuale Giorgio Edificio Principal 1 Piso 2 Oficina 2-1 Urb Los Ruices Caracas Zona Postal </p>
+                                </div>          
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-xs-1">
+                                <img class="contact-icons" src="../assets/images/footer/horario-ico.png" alt="Horarios">
+                            </div>
+                            <div class="col-xs-10">
+                                <div>  
+                                    <p class="margin-bottom-0"> Horarios de Atención:</p>
+                                    <p class="margin-top-0"> 09:00 -16:30 (GMT-4)</p>
+                                </div>               
+                            </div>
+                        </div>       
+                        <div class="row"> 
+                            <div class="col-xs-1">
+                                <img class="contact-icons" src="../assets/images/footer/telefono-ico.png" alt="Telefonos">
+                            </div>
+                            <div class="col-xs-10">
+                                <div>  
+                                    <p class="margin-bottom-0"> Teléfono: </p>
+                                    <p class="margin-top-0"> +58 212-5266501 </p>
+                                </div>            
+                            </div>
+                        </div>                
+                        <div class="row"> 
+                            <div class="col-xs-1">
+                                <img class="contact-icons" src="../assets/images/footer/e-mail-ico.png" alt="E-mail">
+                            </div>
+                            <div class="col-xs-10">
+                                <div>  
+                                    <p class="margin-bottom-0"> E-mail: </p>
+                                    <p class="margin-top-0"> info@coinet.network </p>
+                                </div>         
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-md-4 hidden-sm hidden-xs">
+                        <h2 class="margin-bottom-prom margin-top-prom"> Suscribirme a Coinet </h2>
+                        <p> 
+                            ¿Quieres lanzar una ICO?<br>¿Necesitas asesoría en trading de criptomonedas?<br>Déjanos tu correo y nos pondremos en contacto.
+                        </p>
+                        <form id="form-footer" method="post">
+                            <input class="margin-top-min margin-bottom-min width-100" type="email" name="email" placeholder="coinet@email.com" autocomplete="off" required maxlength="50">
+                            <input type="hidden" name="subscription" value="onFooter">
+                            <div class="margin-top-min margin-bottom-prom">
+                                <button class="btn-style float-right"> Suscribirme </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 margin-bottom-prom">
+                        <h2 class="margin-bottom-prom margin-top-prom"> Síguenos en nuestras redes sociales </h2>
+                        <div class="social-media-div">
+                            <a href="http://t.me/Coinetplatform" target="_blank"><img src="../assets/images/footer/telegram-ico.png" class="img-responsive" alt="Telegram"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="https://www.facebook.com/coinet.network/" target="_blank"><img src="../assets/images/footer/facebook-ico.png" class="img-responsive" alt="Facebook"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="https://www.instagram.com/grupocoinet/" target="_blank"><img src="../assets/images/footer/instagram-ico.png" class="img-responsive" alt="Instagram"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="https://twitter.com/grupocoinet?lang=es" target="_blank"><img src="../assets/images/footer/twitter-ico.png" class="img-responsive" alt="Twitter"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="#"><img src="../assets/images/footer/slack.png" class="img-responsive" alt="Slack"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="https://github.com/coinet" target="_blank"><img src="../assets/images/footer/github.png" class="img-responsive" alt="Github"></a>
+                        </div>
+                        <div class="social-media-div">
+                            <a href="https://bitcointalk.org/index.php?topic=3306120.0" target="_blank"><img src="../assets/images/footer/bitcointalk-ico.png" class="img-responsive" alt="Bitcointalk"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-align-center">
+                <div class="container-fluid">
+                    <h5 class="copyright_text">
+                        <span> Copyright &copy; 2018 Grupo Coinet 134, C.A.</span>
+                        <br>
+                        <span> RIF J410300418 </span> 
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+         <!--SCRIPTS-->
+        <script src="../assets/js/jquery/jquery.min.js"></script>
+        <script src="../assets/js/bootstrap-formhelpers.min.js"></script>
+        <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+        <script src="../assets/js/bootstrap/datatables/datatables.min.js"></script>
+        <script src="../assets/js/bootstrap/datatables/dataTables.responsive.min.js"></script>
+        <script src="../assets/js/bootstrap/jquery.validate.min.js"></script>
+        <script src="../assets/js/coinet/chat-admin.js"></script>
+        <script src="../assets/js/coinet/chat-user.js"></script>
+        <script src="../assets/js/coinet/main.js"></script>
+        <script src="../assets/js/jquery-easing/jquery.easing.compatibility.js"></script>
+        <script src="../assets/js/jquery-easing/jquery.easing.min.js"></script>
+        <!--SCRIPTS END-->
+
+    </body>
+</html>

@@ -1,0 +1,181 @@
+/* start navbar styles */
+
+	.navbar-custom 
+	{
+		background-image: linear-gradient(to bottom, #043848, #383838);
+		color: #ffffff;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+
+	.navbar-custom .navbar-brand 
+	{
+		padding: 0px auto;
+		float: left;
+	}
+
+	.navbar-custom ul > li > a
+	{
+		color: #ffffff !important;
+		font-size: 12px;
+		letter-spacing: 0.1px;
+		text-align: left;
+	}
+
+	.navbar-custom ul > li > a:hover
+	{
+		background-color: transparent;
+	}
+
+	.navbar-custom ul > li > a:focus
+	{
+		background-color: #062831;
+	}
+
+	.dropdown > a
+	{
+		cursor: pointer;
+		background-image: linear-gradient(to bottom, #043848, #383838);
+	}
+
+	.dropdown > a:focus, .dropdown > a:active
+	{
+		background-image: linear-gradient(to bottom, #043848, #383838);
+	}
+
+	ul.dropdown-menu
+	{
+		background-image: linear-gradient(to bottom, #043848, #383838);
+	}
+
+	.dropdown-menu > li > a:hover 
+	{
+	    background-image: none;
+	}
+
+	.icon-nav
+	{
+		max-width: 97px;
+		margin-top: 12px;
+	}
+
+	.navbar-custom .navbar-toggle 
+	{
+		border-color: #ffffff;
+	}
+
+	.navbar-custom .navbar-toggle .icon-bar 
+	{
+    	background-color: #ffffff;
+	}
+
+
+/* end navbar styles*/
+
+
+/* start header styles */
+
+	#coinet-intro
+	{
+		background-image: url('../../images/navbar-header/banner-equipo.png');
+		background-color: #cccccc;
+		background-repeat: no-repeat;
+        background-size: 100% 100%;
+		color: #6C6D78;
+	}
+
+	#coinet-intro .intro-text 
+	{
+		padding-top: 13%;
+		padding-bottom: 20%;
+	}
+
+	#coinet-intro .intro-text .intro-lead-in h1
+	{
+		font-size: 48px;
+		font-family: 'Raleway Black', arial;
+		font-weight: 900;
+		font-style: bold;
+		letter-spacing: 0.2px;
+		text-align: center;
+		color: #ffffff;
+	}
+
+	#coinet-intro .intro-text .intro-heading
+	{
+		margin-bottom: 5%;
+	}
+
+	#coinet-intro .intro-text .intro-heading p
+	{
+		font-size: 16px;
+		line-height: 1.19;
+		letter-spacing: -0.4px;
+		text-align: center;
+		color: #73b1fa;
+	}
+
+	#coinet-intro .intro-text .intro-description p
+	{
+		font-size: 16px;
+		line-height: 1.19;
+		letter-spacing: -0.4px;
+		text-align: center;
+		color: #8d8d8d;
+	}
+
+	@media (max-width: 992px) 
+	{
+		#coinet-intro .intro-text 
+		{
+			padding-top: 10%;
+			padding-bottom: 15%;
+		}
+
+		#coinet-intro .intro-text .intro-lead-in h1
+		{
+			font-size: 35px;		
+		}
+
+		#coinet-intro .intro-text .intro-heading 
+		{
+			text-align: justify;
+			font-size: 20px;
+		}
+	}
+
+	@media (max-width: 768px) 
+	{
+		#coinet-intro .intro-text 
+		{
+			padding-top: 100px;
+			padding-bottom: 10%;
+		}
+
+		#coinet-intro .intro-text .intro-lead-in h1
+		{
+			font-size: 28px;		
+		}
+
+		#coinet-intro .intro-text .intro-heading 
+		{
+			text-align: justify;
+			font-size: 18px;
+		}
+	}
+
+	@media (max-width: 400px) 
+	{
+		#coinet-intro .intro-text 
+		{
+			padding-top: 80px;
+			padding-bottom: 10%;
+		}
+
+		#coinet-intro .intro-text .intro-lead-in h1
+		{
+			font-size: 18px !important;		
+		}
+	}
+
+/* end header styles */

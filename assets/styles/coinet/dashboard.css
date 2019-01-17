@@ -1,0 +1,278 @@
+/* dashboard styles */
+
+	.dashboard
+	{
+		margin-top: 55px; 
+		padding-top: 45px;   
+	}
+
+	.text-lower
+	{
+		text-transform: lowercase;
+	}
+
+	.dashboard-line	 
+	{
+		border-left: 2px solid #dfdfdf;
+	}
+	
+	.dashboard-img 
+	{
+		border: solid 1px #f3f3f3;
+		width: 100%;
+	}
+
+	.dashboard-info-profile
+	{
+		display: inline-block;
+	}
+
+	.dashboard-label-profile
+	{
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 1.58;
+		text-align: left;
+		color: #4a4a4a;
+		display: block;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	.dashboard-profile-data
+	{
+		color: #4a4a4a;
+	}
+
+	.dashboard-amount-label
+	{
+		font-family: Roboto;
+		font-size: 17px;
+		font-weight: 700;
+		letter-spacing: -0.6px;
+		text-align: left;
+		color: #4a4a4a;
+		display: block;
+		position: relative;
+		margin-top: 2%;
+	}
+
+	.dashboard-amount
+	{
+		font-size: 52px;
+		font-weight: bold;
+		line-height: 0.46;
+		letter-spacing: -1.2px;
+		color: #9b9b9b;
+		display: block;
+		text-align: center;
+		margin-top: 10%;
+		margin-bottom: 10%;
+		display: block;
+	}
+
+	.dashboard-alert-container
+	{
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 9%;
+		margin-bottom: 9%;
+	}
+
+	.dashboard-alert-box
+	{
+		font-size: 12.5px;
+  		border-radius: 4px;
+  		background-color: #ffffff;
+  		border: solid 1px #ebe4e4;
+	}
+
+	.alert-text
+	{
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 2;
+		letter-spacing: -0.3px;
+		text-align: left;
+		color: #9b9b9b;
+	}
+
+	.dashboard-transac 
+	{
+		font-family: Roboto;
+		font-size: 15px;
+		font-weight: bold;
+		letter-spacing: -0.6px;
+		text-align: left;
+		color: #4a4a4a;
+	}
+
+	.dashboard-oper
+	{
+		font-size: 12px;
+		line-height: 1.58;
+		letter-spacing: normal;
+		text-align: left;
+		color: #4a4a4a;
+		display: inline;
+	}
+
+	.img-alert
+	{
+		position: relative;
+		margin-top: 6.5%;
+		left: 50%;
+		max-width: 36px;
+		max-height: 31px;
+	}
+
+	#coinet-transaccion-container
+	{
+		background-color: #efefef;
+	}
+
+	.footer-link
+	{
+		margin: auto;
+		position: relative;
+		font-size: 14px;
+		font-weight: 500;
+		color: #9b9b9b;
+	}
+	
+	.footer-link:visited, .footer-link:hover, .footer-link:focus
+	{
+		margin: auto;
+		position: relative;
+		font-size: 14px;
+		font-weight: 500;
+		color: #9b9b9b;
+		text-decoration: none;
+		outline:0;
+	}
+
+	.footer-col-container
+	{
+		padding-bottom: 5%; 
+		padding-top: 5%;
+	}
+
+	.pending 
+	{
+		font-size: 12px;
+		line-height: 2.11;
+		text-align: left;
+		color: #d0021b;
+	}
+
+	.review 
+	{
+		font-size: 12px;
+		line-height: 2.11;
+		text-align: left;
+		color: #5189e2;
+	}
+
+	.complete 
+	{
+		font-size: 12px;
+		line-height: 2.11;
+		text-align: left;
+		color: #2ead37;
+	}
+
+	.transaccion-table .even, .transaccion-table .odd 
+	{ 
+		background-color: #ffffff 
+	}
+	
+	.transaccion-table th, .dataTables_filter, .dataTables_length, .dataTables_info, .dataTables_paginate, .dtr-title
+	{
+		font-size: 12px;
+		font-weight: normal !important;
+		text-transform: uppercase;
+		line-height: 1.58;
+		color: #4a4a4a;
+	}
+
+	.table-borderless td, .table-borderless th 
+	{
+	    border: 0;
+	}
+
+	.pagination > li.active > a, .pagination > li.active > span
+	{
+		background-image: linear-gradient(7deg, #565656, #565656);
+	}
+
+	.transaction-Pending
+	{
+		color: #d0021b;
+	}
+
+	.transaction-Finished
+	{
+		color: #2ead37;
+	}
+
+	.dataTables_length, .dataTables_filter
+	{
+		margin-bottom: 25px !important;
+	}
+
+	.dataTables_paginate, .dataTables_info
+	{
+		margin-top: 25px !important;
+	}
+
+	.login-register .modal-body select
+    {
+        width: 100%;
+        height: 31px;
+        border-radius: 3px;
+        background-color: #ffffff;
+        border: solid 1px #d2d2d2;
+        padding-left: 15px;
+    }
+
+	@media (max-width: 992px) 
+    {
+        .dashboard-line	 
+		{
+			border-left: none;
+		}
+    }
+
+    @media (max-width: 400px) 
+    {
+    	.dashboard-label-profile
+		{
+			font-size: 12px;
+		}
+
+		.dashboard-profile-data
+		{
+			font-size: 11px;
+		}
+
+		.pending 
+		{
+			font-size: 11px;
+		}
+
+		.review 
+		{
+			font-size: 11px;
+		}
+
+		.dashboard-amount-label
+		{
+			font-size: 14px;
+		}
+
+		.dashboard-amount
+		{
+			font-size: 30px;
+		}
+    }
+/* end dashboard styles */

@@ -1,0 +1,97 @@
+/* start footer styles */
+
+	.footer 
+	{
+		bottom: 0;
+		width: 100%;
+		background-color: #242424;
+	}
+
+	.footer_tittle 
+	{
+		font-size: 15px;
+		font-weight: 500;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: #9b9b9b;
+	}
+
+	.footer p
+	{
+
+		color:#9b9b9b;
+		font-size: 12px;
+  		font-weight: 500;
+	}
+
+	.footer h2
+	{
+
+		color:#9b9b9b;
+		font-size: 15px;
+  		font-weight: 500;
+  		font-style: normal;
+ 		font-stretch: normal;
+  		line-height: normal;
+  		letter-spacing: normal;
+  		text-align: left;
+	}
+
+	.footer input
+	{
+		height: 44px;
+		padding-left: 15px;
+		border-radius: 20px;
+		background-color: #ffffff;
+	}
+
+	.footer input:focus
+    {
+        outline: none;
+        box-shadow: 0px 0px 2px #2db7d7;
+    }
+
+	.contact-icons
+    {
+     	margin-right:3%;
+    }
+
+    .footer-copyright
+    {
+     	background-color: #161616;
+		width: 100%;
+		height: auto;
+		bottom: 0;
+    }
+
+    .social-media-div
+    {
+    	display: inline-block;
+    }
+
+    .copyright_text
+    {
+     	font-family:'Roboto', arial;
+     	color:#9b9b9b;
+     	padding-top: 20px; 
+     	padding-bottom: 20px;
+   	}
+
+    .text-uppercase
+    {
+    	text-transform: uppercase!important;
+	}
+
+	@media (max-width: 400px) 
+    {
+        .social-media-div
+        {
+            width: 32px;
+        }
+    }
+
+
+/* end footer styles */

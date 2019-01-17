@@ -1,0 +1,186 @@
+/* start coinet-power styles */
+
+	#coinet-power
+	{
+		background-color: #212121;
+	}
+
+	.text-container-hover-power
+	{
+		top: 35%;
+		left: 2%;
+	}
+
+	.container-services
+	{
+		padding: 5%;
+		padding-left: 6%;
+		padding-right: 6%;
+	}
+
+	.services-col-padding1
+	{
+		padding-right: 0;
+	}
+
+	.services-col-padding2
+	{
+		padding-left: 0;
+	}
+
+	.services-col1 
+	{
+		border-right: 1px solid #313131;
+		border-bottom: 1px solid #313131;
+	}
+
+	.services-col2
+	{
+		border-bottom: 1px solid #313131;
+	}
+
+	.services-col3
+	{
+		border-right: 1px solid #313131;
+	}
+
+	.img-services
+	{
+		border-radius: 10%;
+		-webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+		-moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+		box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+	}
+
+	.title-article-services
+	{
+		font-family: 'Raleway Black', arial;
+		font-size: 15px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: -0.6px;
+		color: #eaeaea;
+	}
+
+	.line-article
+	{
+		background-color: #69cdec; 
+		border-color: #69cdec;
+		width: 30%;
+	}
+
+	.see-more-link
+	{
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 0.1px;
+		text-align: left;
+		color: #69cdec;
+	}
+
+	.title-behin-visin
+	{
+		font-family: 'Raleway Black', arial;
+		font-size: 38px;
+		font-weight: 900;
+		line-height: 0.5;
+		letter-spacing: -0.9px;
+		color: #2a2a2a;
+	}
+
+	.text-container-hover-visin
+	{
+		top: 50%;
+		left: 10%;
+	}
+
+	.title-container-visin
+	{
+		font-family: 'Raleway Black', arial;
+		font-size: 15px;
+		font-weight: 500;
+		letter-spacing: -0.3px;
+		color: #9f9a9a;
+	}
+
+	.coinet-power-social-media
+	{
+		border-radius: 3px; 
+		border: solid 1px #e6e5e5; 
+		font-family: 'Roboto', arial;
+		font-size: 15px;
+		font-weight: 300;
+		letter-spacing: -0.6px;
+		text-align: center;
+		color: #f2f1f2;
+		padding: 8px;
+		padding-top: 12px;
+		padding-bottom: 5px;
+		margin-bottom: 5px;
+	}
+
+	.see-more-button 
+	{
+	    background: none;
+	    color: inherit;
+	    border: none;
+	    padding: 0;
+	    font: inherit;
+	    cursor: pointer;
+	    outline: inherit;
+	}
+
+	@media (max-width: 768px) 
+  	{
+		.services-col1, .services-col3
+		{
+			border-right: 0;
+		}
+
+		.services-col-padding1
+		{
+			padding-right: 15px;
+		}
+
+		.services-col-padding2
+		{
+			padding-left: 15px;
+		}
+  	}
+
+
+	@media (max-width: 400px) 
+	{
+		.title-behind-power
+		{
+			font-size: 25px !important;
+		}
+		
+		.title-behin-visin
+		{
+			font-size: 25px;
+		}
+
+		.title-container-visin
+		{
+			font-size: 11px;
+		}
+
+		.title-article-services
+		{
+			font-size: 10px;
+		}
+
+		.margin-top-prom
+		{
+			margin-top: 10%;
+		}
+
+		.see-more-link 
+		{
+		    font-size: 9px !important;
+		}
+	}
+
+/* end coinet-power styles */

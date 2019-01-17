@@ -1,0 +1,158 @@
+/* start coinet-investment styles */
+ 
+    #coinet-token
+    {
+        background-color: #212121;
+    }
+
+    .text-15px
+  	{
+        font-size: 15px;
+        letter-spacing: -0.6px;
+        color: #eaeaea;
+  	}
+
+    .text-12px
+  	{
+        font-size: 12px;
+        letter-spacing: -0.5px;
+        color: #eaeaea;
+  	}
+
+    .text2-12px
+    {
+        font-family: Roboto;
+        font-size: 12px;
+        letter-spacing: -0.5px;
+        color: #9b9b9b;
+    }
+
+    .btc-text 
+    {
+		font-family: Roboto;
+		font-size: 15px;
+		font-weight: 900;
+		letter-spacing: -0.2px;
+		color: #5dbeff;
+    }
+
+    .dollars-text 
+    {
+        font-family: Roboto;
+        font-size: 15px;
+        letter-spacing: -0.2px;
+        color: #2db7d7;
+    }
+
+    .dollars-hardcap
+    {
+        font-family: Roboto;
+        font-size: 15px;
+        letter-spacing: -0.2px;
+        text-align: left;
+        color: #9b9b9b;
+    }
+
+    .proceeds-txt
+    {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 900;
+        letter-spacing: -0.2px;
+        color: #ffffff;
+    }
+
+    .proceeds-little
+    {
+        font-family: Roboto;
+        font-size: 8px;
+        letter-spacing: -0.1px;
+        color: #f1f1f1;
+    }
+
+    .text-7px 
+    {
+        font-family: Raleway;
+        font-size: 7px;
+        letter-spacing: -0.3px;
+        text-align: center;
+        color: #eaeaea;
+    }
+
+    .button-obtener 
+    {
+        border-radius: 20px;
+        border: 0;
+        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-image: linear-gradient(81deg, #63c4ff, #3491fe);
+        color: #ffffff;
+    }
+
+    .blue-rectangle
+    {
+        border: 2px solid #3d9bff;
+        border-radius: 5px;
+    }
+
+    .padding-box-job
+    {
+        padding-top: 15px; 
+        padding-bottom: 15px;
+    }
+
+    .arrow-down 
+    {
+        width: 0; 
+        height: 0; 
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 12px solid #f7f8f9;
+        align-self: center;
+    }
+
+    .arrow-up
+    {
+        width: 0; 
+        height: 0; 
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;  
+        border-bottom: 12px solid #4baaff;
+    }
+
+    @media (max-width: 768px) 
+    {
+        .blue-rectangle
+        {
+            border: none !important;
+            border-bottom: 1px solid #3d9bff !important;
+        }
+
+        .border-box-job
+        {
+            border: none !important;
+            border-bottom: 1px solid #979797 !important;
+        }
+    }
+
+    @media (max-width: 992px)
+    {
+        .line-numbers-b
+        {
+            border-bottom: solid 1px #979797;
+        }
+        
+        .blue-rectangle
+        {
+            border-radius: 0;
+            border: 1px solid #3d9bff;
+        }
+
+        .border-box-job
+        {
+            border: 1px solid #979797;
+        }
+    }
+
+/* end coinet-investment styles */

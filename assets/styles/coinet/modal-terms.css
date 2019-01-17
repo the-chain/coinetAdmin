@@ -1,0 +1,67 @@
+/* start modal-terms styles */
+
+    #modal-terms-scholarship .modal-header
+    {
+        border:none;
+        padding: 0;
+    }
+
+    .circle-number 
+    {
+        border-radius: 50%;
+        width: 23px;
+        height: 23px;
+        background: #fff;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: -0.3px;
+        color: #9b9b9b;
+        border: solid 2px #e6e5e5;
+    }
+
+    .text-container-hover-image
+    {
+        top: 52%;
+        left: 38%;
+    }
+
+    .text-container-hover-close
+    {
+        top: 0;
+        left: 30%;
+    }
+
+    .body-terms-padding
+    {
+        padding-top: 0; 
+        padding-left: 0;
+    }
+
+    @media (max-width: 1000px) 
+    {
+        .text-container-hover-close
+        {
+            top: 0;
+            left: 10%;
+        }
+        .body-terms-padding
+        {
+            padding-top: 15px; 
+            padding-left: 15px;
+        }
+
+        .circle-number 
+        {
+            width: 20px;
+            height: 20px;
+            font-size: 10px;
+        }
+
+        .modal-container-titles
+        {
+            padding-top: 20px;
+        }
+    }
+
+/* end modal-terms styles */
